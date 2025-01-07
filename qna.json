@@ -1,0 +1,501 @@
+[
+  {
+    "questionNumber": "2500",
+    "question": "What is Android?",
+    "answer": "Android is an operating system designed primarily for touchscreen mobile devices such as smartphones and tablets."
+  },
+  {
+    "questionNumber": "2501",
+    "question": "What are the key components of the Android architecture?",
+    "answer": "The key components of the Android architecture are the Linux Kernel, Libraries, Android Runtime, Application Framework, and Applications."
+  },
+  {
+    "questionNumber": "2502",
+    "question": "Explain the Android application components.",
+    "answer": "Android application components include Activities, Services, Broadcast Receivers, and Content Providers. These components help in building the user interface and managing various aspects of an app's functionality."
+  },
+  {
+    "questionNumber": "2503",
+    "question": "What is an Activity in Android?",
+    "answer": "An Activity is a single, focused screen that the user interacts with in an Android app. It represents a visual user interface element."
+  },
+  {
+    "questionNumber": "2504",
+    "question": "Explain the difference between a Fragment and an Activity.",
+    "answer": "An Activity represents a single screen with a user interface, while a Fragment is a modular section of an Activity that can be combined with other Fragments to build a multi-pane user interface."
+  },
+  {
+    "questionNumber": "2505",
+    "question": "What is an Intent in Android?",
+    "answer": "An Intent is a messaging object used to request an action from another component within the same app or from a different app. It is used for communication between Android components like Activities, Services, and Broadcast Receivers."
+  },
+  {
+    "questionNumber": "2506",
+    "question": "What is the AndroidManifest.xml file?",
+    "answer": "The AndroidManifest.xml file is a required configuration file in every Android app. It contains essential information about the app, such as its components, permissions, and version information."
+  },
+  {
+    "questionNumber": "2507",
+    "question": "What is a Service in Android?",
+    "answer": "A Service is a background component that performs long-running operations without a user interface. It is used for tasks such as playing music, handling network requests, and performing background processing."
+  },
+  {
+    "questionNumber": "2508",
+    "question": "Explain the concept of Content Providers in Android.",
+    "answer": "Content Providers are used to manage and share structured data between different applications. They allow one app to access and manipulate data stored in another app's database, enabling data sharing and data security."
+  },
+  {
+    "questionNumber": "2509",
+    "question": "What is the role of the Android Application Framework?",
+    "answer": "The Android Application Framework provides a set of essential services and APIs that developers can use to build their applications. It simplifies common tasks like handling user input, managing app resources, and facilitating communication between app components."
+  },
+  {
+    "questionNumber": "2510",
+    "question": "What is an APK in Android?",
+    "answer": "APK stands for Android Package. It is the file format used to distribute and install Android applications. An APK file contains all the necessary files and metadata required for an app to run on an Android device."
+  },
+  {
+    "questionNumber": "2511",
+    "question": "What is the Android Emulator?",
+    "answer": "The Android Emulator is a software tool that allows developers to test and debug Android applications on their computer. It simulates the behavior of an Android device and can be used to run apps on different Android versions and screen sizes."
+  },
+  {
+    "questionNumber": "2512",
+    "question": "What is ADB in Android?",
+    "answer": "ADB stands for Android Debug Bridge. It is a command-line tool that allows developers to communicate with an Android device or emulator. ADB is used for tasks such as installing apps, debugging, and transferring files to and from a device."
+  },
+  {
+    "questionNumber": "2513",
+    "question": "What is the difference between DPI and PPI in Android?",
+    "answer": "DPI (Dots Per Inch) refers to the pixel density of a screen, while PPI (Pixels Per Inch) refers to the pixel density of an image or print. In Android, DPI is used to classify device screens into different density buckets, such as ldpi, mdpi, hdpi, xhdpi, etc."
+  },
+  {
+    "questionNumber": "2514",
+    "question": "What is the significance of the 'adb shell' command?",
+    "answer": "The 'adb shell' command allows developers to interact with the Android device's shell (command-line interface) directly. It can be used for tasks like accessing the device's file system, executing commands, and debugging applications at a lower level."
+  },
+  {
+    "questionNumber": "2515",
+    "question": "What is the Android NDK, and when is it used?",
+    "answer": "The Android NDK (Native Development Kit) is a set of tools that allow developers to write parts of their Android applications in native code, such as C and C++. It is typically used for performance-critical tasks or when integrating with existing native libraries."
+  },
+  {
+    "questionNumber": "2516",
+    "question": "Explain the concept of Multithreading in Android.",
+    "answer": "Multithreading in Android refers to the ability of an application to run multiple threads concurrently. It is used to improve the responsiveness of an app, perform background tasks, and prevent blocking the user interface thread (UI thread)."
+  },
+  {
+    "questionNumber": "2517",
+    "question": "What is the Android Support Library (AndroidX)?",
+    "answer": "The Android Support Library, now known as AndroidX, is a set of libraries provided by Google to support newer Android features on older devices. It simplifies the process of creating backward-compatible Android applications."
+  },
+  {
+    "questionNumber": "2518",
+    "question": "What is the significance of the 'ViewModel' in Android Architecture Components?",
+    "answer": "The ViewModel is a part of Android's Architecture Components and is used to store and manage UI-related data. It survives configuration changes (e.g., screen rotation) and helps separate UI-related data from the UI controller (Activity or Fragment)."
+  },
+  {
+    "questionNumber": "2519",
+    "question": "What is ProGuard in Android, and how does it improve app security?",
+    "answer": "ProGuard is a code obfuscation and optimization tool used in Android development to shrink the size of the APK and make it more difficult for reverse engineering. It renames classes and methods, making it harder for attackers to understand and modify the code."
+  },
+  {
+    "questionNumber": "2520",
+    "question": "Explain the purpose of the 'R.java' file in Android development.",
+    "answer": "The 'R.java' file is an auto-generated resource file in Android that contains references to all resources used in an application, such as layouts, images, and strings. It is used by the Android system to access these resources at runtime."
+  },
+  {
+    "questionNumber": "2521",
+    "question": "What is the Android Gradle Plugin, and how does it simplify app building?",
+    "answer": "The Android Gradle Plugin is a build tool used to automate and manage the build process of Android applications. It simplifies tasks like dependency management, resource compilation, and code signing, making app development more efficient."
+  },
+  {
+    "questionNumber": "2522",
+    "question": "Explain the difference between Serializable and Parcelable in Android.",
+    "answer": "Serializable and Parcelable are both interfaces used to pass data between Android components. Serializable is slower and less efficient but simpler to implement, while Parcelable is more efficient but requires more coding effort for customization."
+  },
+  {
+    "questionNumber": "2523",
+    "question": "What is the purpose of the 'adb logcat' command in Android debugging?",
+    "answer": "The 'adb logcat' command is used to view the system log messages from an Android device or emulator. It is a valuable tool for debugging and diagnosing issues in Android applications by displaying logs generated by the operating system and apps."
+  },
+  {
+    "questionNumber": "2524",
+    "question": "Explain the role of the 'res' folder in an Android project.",
+    "answer": "The 'res' (resources) folder in an Android project contains all non-code resources, such as layouts, drawables, strings, and XML files. These resources are used to define the user interface and other elements of an Android application."
+  },
+  {
+    "questionNumber": "2525",
+    "question": "What is the Android Activity Lifecycle, and what are its key methods?",
+    "answer": "The Android Activity Lifecycle represents the various states an Activity can go through, such as onCreate, onStart, onResume, onPause, onStop, and onDestroy. These methods allow developers to manage the behavior of an Activity during its lifecycle."
+  },
+  {
+    "questionNumber": "2526",
+    "question": "Explain the concept of Fragments in Android and when they should be used.",
+    "answer": "Fragments are modular components in Android that represent parts of a user interface and can be combined within an Activity to create flexible UI designs. They are typically used to create responsive layouts for both phones and tablets."
+  },
+  {
+    "questionNumber": "2527",
+    "question": "What is the purpose of an Android BroadcastReceiver?",
+    "answer": "A BroadcastReceiver is used to respond to system-wide broadcast announcements, such as device battery status changes, network connectivity changes, and custom events. It allows an application to receive and react to these events even when it's not currently running."
+  },
+  {
+    "questionNumber": "2528",
+    "question": "What is the difference between AsyncTask and ThreadPoolExecutor in Android for background tasks?",
+    "answer": "AsyncTask is a simple way to perform background tasks in Android, but it's limited in terms of control and scalability. ThreadPoolExecutor offers more control over thread management and is suitable for more complex and concurrent tasks."
+  },
+  {
+    "questionNumber": "2529",
+    "question": "Explain the concept of Android App Permissions and why they are important.",
+    "answer": "Android App Permissions are security features that allow or deny an app access to certain device resources and data, such as the camera, contacts, and location. They are crucial for protecting user privacy and ensuring app security."
+  },
+  {
+    "questionNumber": "2530",
+    "question": "What is the Android Material Design, and how does it enhance the user experience?",
+    "answer": "Material Design is a design language developed by Google for creating visually appealing and consistent user interfaces across Android apps. It emphasizes clean and responsive design, smooth animations, and meaningful motion to improve the user experience."
+  },
+  {
+    "questionNumber": "2531",
+    "question": "Explain the concept of Dependency Injection in Android, and why is it used?",
+    "answer": "Dependency Injection is a design pattern used in Android development to improve code modularity and testability. It involves injecting dependencies (e.g., objects or services) into a class rather than having the class create them. This promotes loose coupling and easier testing."
+  },
+  {
+    "questionNumber": "2532",
+    "question": "What is the purpose of Proximity Sensor in Android devices?",
+    "answer": "The Proximity Sensor in Android devices is used to detect the presence of nearby objects, typically when a user places the device near their ear during a phone call. It helps in turning off the screen to prevent accidental touches and conserves battery life."
+  },
+  {
+    "questionNumber": "2533",
+    "question": "Explain the role of SharedPreferences in Android app development.",
+    "answer": "SharedPreferences is a way to store simple data (key-value pairs) persistently in an Android app. It is often used to store user preferences, settings, and other small amounts of data that should persist between app sessions."
+  },
+  {
+    "questionNumber": "2534",
+    "question": "What is the Android ViewBinding feature, and how does it simplify UI development?",
+    "answer": "ViewBinding is a feature introduced in Android to simplify UI development by generating a binding class for each XML layout file. It allows developers to access and manipulate UI elements directly in a type-safe manner, reducing the risk of runtime errors."
+  },
+  {
+    "questionNumber": "2535",
+    "question": "Explain the concept of ViewModel in the context of Android Architecture Components.",
+    "answer": "ViewModel is a part of Android's Architecture Components and is used to store and manage UI-related data. It survives configuration changes and helps in separating the presentation layer from the data layer in Android applications."
+  },
+  {
+    "questionNumber": "2536",
+    "question": "What is Data Binding in Android, and how does it simplify UI development?",
+    "answer": "Data Binding is a library that allows developers to bind UI components in the layout files directly to data sources, reducing the need for boilerplate code. It simplifies UI updates and helps maintain a clean separation between the UI and the data."
+  },
+  {
+    "questionNumber": "2537",
+    "question": "Explain the purpose of the 'adb install' command in Android development.",
+    "answer": "The 'adb install' command is used to install an Android application (APK file) onto a connected device or emulator. It is a common way to test and deploy applications during development and testing phases."
+  },
+  {
+    "questionNumber": "2538",
+    "question": "What is the Android JobScheduler, and how does it help in managing background tasks?",
+    "answer": "JobScheduler is an Android API that allows developers to schedule and manage background tasks efficiently. It can defer tasks to run when certain conditions are met, such as when the device is charging, connected to Wi-Fi, or when there is network connectivity. This helps in optimizing power consumption and network usage, making it a useful tool for managing background tasks in a battery-efficient manner."
+  },
+  {
+    "questionNumber": "2539",
+    "question": "What is the Android ViewModelScope, and when should it be used?",
+    "answer": "ViewModelScope is a coroutine scope associated with a ViewModel in Android. It allows you to launch and manage coroutines tied to the lifecycle of the ViewModel, ensuring that they are canceled when the ViewModel is no longer in use. It should be used for running background tasks that are scoped to the ViewModel's lifecycle."
+  },
+  {
+    "questionNumber": "2540",
+    "question": "Explain the difference between Serializable and Parcelable in Android.",
+    "answer": "Serializable and Parcelable are both interfaces used for data serialization in Android, but Parcelable is preferred for interprocess communication (IPC) and is more efficient. Serializable is a simpler but slower option, while Parcelable allows for more control over the serialization process."
+  },
+  {
+    "questionNumber": "2541",
+    "question": "What are Android App Widgets, and how can they be implemented?",
+    "answer": "Android App Widgets are miniature app views that can be embedded in other applications or the home screen. They can display information or perform simple tasks. App Widgets are implemented using the AppWidgetProvider class and require the use of XML layout files to define their appearance."
+  },
+  {
+    "questionNumber": "2542",
+    "question": "Explain the purpose of the 'adb push' and 'adb pull' commands in Android development.",
+    "answer": "The 'adb push' command is used to copy files or directories from a local machine to an Android device or emulator. Conversely, the 'adb pull' command is used to copy files or directories from an Android device or emulator to a local machine. These commands are useful for transferring data during development and debugging."
+  },
+  {
+    "questionNumber": "2543",
+    "question": "What is the Android Navigation Component, and how does it simplify app navigation?",
+    "answer": "The Android Navigation Component is a library that simplifies app navigation by providing a graphical interface for defining navigation paths and handling common navigation patterns, such as up and back actions. It helps in creating a consistent and predictable user navigation experience."
+  },
+  {
+    "questionNumber": "2544",
+    "question": "Explain the role of AsyncTaskLoader in Android, and when should it be used?",
+    "answer": "AsyncTaskLoader is a class in Android that extends AsyncTask to load data asynchronously in the background. It is designed to handle data loading for UI components, such as ListViews, and is especially useful when dealing with data that may change during configuration changes, like screen rotation."
+  },
+  {
+    "questionNumber": "2545",
+    "question": "What is the Android HandlerThread, and how is it different from a regular Thread?",
+    "answer": "HandlerThread is a class in Android that combines a thread and a Looper, providing a way to run tasks with a message queue in the background. It is designed for tasks that need to be processed sequentially on a separate thread. Unlike a regular Thread, HandlerThread simplifies message handling and synchronization."
+  },
+  {
+    "questionNumber": "2546",
+    "question": "Explain the purpose of the 'adb shell am' command in Android development.",
+    "answer": "The 'adb shell am' command is used to start activities, services, and broadcasts on an Android device or emulator. It allows developers to trigger specific app actions and interactions programmatically during testing and debugging."
+  },
+  {
+    "questionNumber": "2547",
+    "question": "What is Android Instant App, and how does it differ from regular Android apps?",
+    "answer": "Android Instant App is a feature that allows users to run parts of an app without installing it on their device. It offers a more streamlined and lightweight experience compared to regular Android apps, which require full installation. Instant Apps are typically used for quick access to specific app features or content."
+  },
+  {
+    "questionNumber": "2548",
+    "question": "Explain the purpose of the 'adb logcat' command in Android development.",
+    "answer": "The 'adb logcat' command is used to view and interact with the system log messages generated by an Android device or emulator. It is a crucial tool for debugging and diagnosing issues in Android applications by providing real-time access to log information."
+  },
+  {
+    "questionNumber": "2549",
+    "question": "What is the Android MediaCodec API, and how is it used?",
+    "answer": "The Android MediaCodec API is a framework for encoding and decoding audio and video data. It allows developers to access hardware-based media codecs for efficient multimedia processing. MediaCodec is used for tasks such as playing video, recording audio, and transcoding media files."
+  },
+  {
+    "questionNumber": "2550",
+    "question": "Explain the Android Proximity Sensor, and give an example of its use in an app.",
+    "answer": "The Android Proximity Sensor is used to detect the presence of nearby objects. It is commonly used in apps that need to control screen behavior based on proximity, such as turning off the screen during a phone call when the device is close to the user's ear."
+  },
+  {
+    "questionNumber": "2551",
+    "question": "What is the purpose of the 'adb shell pm' command in Android development?",
+    "answer": "The 'adb shell pm' command is used to interact with the package manager on an Android device or emulator. It allows developers to perform tasks such as installing and uninstalling apps, listing installed packages, and managing permissions."
+  },
+  {
+    "questionNumber": "2552",
+    "question": "Explain the concept of the Android DownloadManager and its benefits.",
+    "answer": "The Android DownloadManager is a system service that simplifies the downloading of large files in Android apps. It manages tasks like network requests, retries, and system notification of download progress, making it a user-friendly and efficient way to handle downloads."
+  },
+  {
+    "questionNumber": "2553",
+    "question": "What is the Android Canvas and how is it used in drawing graphics?",
+    "answer": "The Android Canvas is a 2D drawing API that allows developers to draw shapes, text, and images onto a View or Bitmap. It is used in custom view rendering and graphics manipulation, enabling developers to create interactive and visually appealing user interfaces."
+  },
+  {
+    "questionNumber": "2554",
+    "question": "Explain the purpose of the 'adb backup' and 'adb restore' commands in Android development.",
+    "answer": "The 'adb backup' command is used to create a backup of an Android app and its data, which can be saved as an encrypted archive. The 'adb restore' command is used to restore an app and its data from a previously created backup. These commands are useful for app migration and data recovery."
+  },
+  {
+    "questionNumber": "2555",
+    "question": "What is Android Auto, and how does it enhance in-car connectivity?",
+    "answer": "Android Auto is a platform that extends the Android operating system to the in-car infotainment system. It provides a safe and convenient way for users to access navigation, music, communication, and other apps while driving, with a simplified interface optimized for the car's display and voice commands."
+  },
+  {
+    "questionNumber": "2556",
+    "question": "Explain the purpose of the 'adb shell input' command in Android development.",
+    "answer": "The 'adb shell input' command is used to simulate user input events on an Android device or emulator, such as tapping the screen, pressing hardware buttons, or entering text. It is commonly used for automated testing and scripting of user interactions."
+  },
+  {
+    "questionNumber": "2557",
+    "question": "What is the Android RenderScript framework, and how is it used?",
+    "answer": "RenderScript is a framework in Android for high-performance computing tasks, especially those related to graphics and image processing. It allows developers to write computationally intensive code that can run efficiently on a variety of hardware, including GPUs and CPUs."
+  },
+  {
+    "questionNumber": "2558",
+    "question": "Explain the purpose of the 'adb shell getprop' command in Android development.",
+    "answer": "The 'adb shell getprop' command is used to retrieve system properties (key-value pairs) from an Android device or emulator. These properties contain information about the device's configuration, settings, and status, making them useful for debugging and device-specific logic."
+  },
+  {
+    "questionNumber": "2559",
+    "question": "What is Android TV, and how does it differ from standard Android on smartphones?",
+    "answer": "Android TV is a version of the Android operating system optimized for television screens and remote control input. It provides an interface designed for easy navigation on large screens and focuses on delivering content such as streaming media, games, and apps suitable for TV viewing."
+  },
+  {
+    "questionNumber": "2560",
+    "question": "Explain the concept of Android Content Providers and when they should be used.",
+    "answer": "Android Content Providers are components that allow one app to share data with other apps, following the ContentProvider API. They should be used when an app needs to expose its data to other apps or allow them to perform data operations, such as querying or inserting data."
+  },
+  {
+    "questionNumber": "2561",
+    "question": "What is Android AutoCompleteTextView, and how does it differ from a regular EditText?",
+    "answer": "Android AutoCompleteTextView is a subclass of EditText that provides auto-suggestions or completion options to users as they type. It differs from a regular EditText by offering a dropdown list of suggestions, which can be particularly useful for user input involving predefined options."
+  },
+  {
+    "questionNumber": "2562",
+    "question": "Explain the purpose of the 'adb shell dumpsys' command in Android development.",
+    "answer": "The 'adb shell dumpsys' command is used to access detailed system information and diagnostics about various Android system services and components. It provides insights into system performance, resource usage, and app-specific information, making it valuable for debugging and profiling."
+  },
+  {
+    "questionNumber": "2563",
+    "question": "What is Android CameraX, and how does it simplify camera-related tasks?",
+    "answer": "Android CameraX is a Jetpack library that simplifies camera-related tasks and provides a consistent API for accessing the camera hardware across a range of Android devices. It abstracts complex camera features and provides an easy-to-use interface for capturing photos and videos."
+  },
+  {
+    "questionNumber": "2564",
+    "question": "Explain the purpose of Android NDK (Native Development Kit) and when it should be used.",
+    "answer": "The Android NDK is a set of tools that allows developers to write and integrate native code (C and C++) into Android applications. It should be used when performance-critical tasks, low-level system access, or platform-specific features are required, and Java or Kotlin alone is insufficient."
+  },
+  {
+    "questionNumber": "2565",
+    "question": "What is the purpose of the 'adb shell top' command in Android development?",
+    "answer": "The 'adb shell top' command is used to display real-time system resource usage statistics for running processes on an Android device or emulator. It provides information about CPU usage, memory consumption, and other resource metrics, aiding in performance monitoring and debugging."
+  },
+  {
+    "questionNumber": "2566",
+    "question": "What is Android WebView, and how can it be used in app development?",
+    "answer": "Android WebView is a component that allows developers to embed web content within their Android applications. It is based on the Chrome browser and can display web pages, handle JavaScript, and interact with web content. WebView is useful for integrating web-based features into native apps."
+  },
+  {
+    "questionNumber": "2567",
+    "question": "Explain the purpose of Android's 'Doze' and 'App Standby' modes in power management.",
+    "answer": "Android's 'Doze' mode and 'App Standby' mode are power-saving features that help extend battery life. 'Doze' mode restricts background activity when the device is idle, while 'App Standby' limits the resources and network access for apps that the user hasn't interacted with for a while."
+  },
+  {
+    "questionNumber": "2568",
+    "question": "What is the purpose of the 'adb shell monkey' command in Android development?",
+    "answer": "The 'adb shell monkey' command is used to run a pseudo-random series of user interface events (such as clicks, touches, and keystrokes) on an Android device or emulator. It is often used for stress testing and evaluating an app's behavior under different user interactions."
+  },
+  {
+    "questionNumber": "2569",
+    "question": "What is Android's App Bundle format, and how does it differ from traditional APKs?",
+    "answer": "Android's App Bundle is a publishing format that allows developers to package their app's code, resources, and assets in a more efficient way than traditional APKs. It generates optimized APKs tailored to each device configuration, reducing download sizes and improving app delivery."
+  },
+  {
+    "questionNumber": "2570",
+    "question": "Explain the purpose of Android's ContentResolver and when it should be used.",
+    "answer": "Android's ContentResolver is used to interact with data stored in the device's Content Providers. It should be used when an app needs to query, insert, update, or delete data in a structured and shared manner. ContentResolver abstracts the details of data storage and retrieval."
+  },
+  {
+    "questionNumber": "2571",
+    "question": "What is the Android AssetManager, and how is it used?",
+    "answer": "The Android AssetManager is used to access files in the app's 'assets' folder. It allows developers to include raw files, fonts, and other assets in the app's distribution package. AssetManager is used for reading and loading assets at runtime."
+  },
+  {
+    "questionNumber": "2572",
+    "question": "Explain the purpose of Android's Notification Channels and why they are important.",
+    "answer": "Android's Notification Channels are used to categorize and customize the behavior of notifications generated by an app. They allow users to control the importance and behavior of notifications, improving the overall user experience and minimizing notification spam."
+  },
+  {
+    "questionNumber": "2573",
+    "question": "What is the Android AlarmManager, and how is it used for scheduling tasks?",
+    "answer": "The Android AlarmManager is a system service used for scheduling tasks or events at specified times or intervals. It allows developers to trigger actions, such as running a service or displaying a notification, even when the app is not actively running."
+  },
+  {
+    "questionNumber": "2574",
+    "question": "Explain the purpose of Android's AccessibilityService and how it benefits users.",
+    "answer": "Android's AccessibilityService is used to assist users with disabilities by providing alternative ways to interact with and use Android devices. It benefits users by offering features like screen readers, voice commands, and gesture-based navigation, making devices more accessible to a wider audience."
+  },
+  {
+    "questionNumber": "2575",
+    "question": "What is Android's JobScheduler, and how does it help manage background tasks?",
+    "answer": "Android's JobScheduler is an API used to schedule background tasks efficiently. It allows the system to batch and optimize the execution of tasks based on criteria such as network availability and device charging status. JobScheduler helps improve battery life and overall system performance."
+  },
+  {
+    "questionNumber": "2576",
+    "question": "Explain the purpose of Android's ViewBinding and how it simplifies view access in activities and fragments.",
+    "answer": "Android's ViewBinding is a feature that generates a binding class for each XML layout file in an app. It simplifies view access by allowing developers to interact with UI elements directly using auto-generated binding objects, reducing the risk of null pointer errors and improving code readability."
+  },
+  {
+    "questionNumber": "2577",
+    "question": "What is Android's Gradle Build System, and how does it facilitate app development?",
+    "answer": "Android's Gradle Build System is a powerful build automation tool used for building, testing, and packaging Android apps. It simplifies the build process, handles dependencies, and allows for customizations through build scripts. Gradle is integral to Android Studio and makes app development more efficient."
+  },
+  {
+    "questionNumber": "2578",
+    "question": "Explain the purpose of Android's PackageManager and how it is used to query app information.",
+    "answer": "Android's PackageManager is used to query and retrieve information about installed apps on a device. It provides details such as app names, package names, version codes, and permissions. PackageManager is useful for building app management and analysis tools."
+  },
+  {
+    "questionNumber": "2579",
+    "question": "What is Android's VectorDrawable, and why is it preferred for graphics over bitmap images?",
+    "answer": "Android's VectorDrawable is a drawable resource format that uses vector graphics to define images. It is preferred over bitmap images because it can be scaled and resized without loss of quality, making it suitable for various screen sizes and resolutions. VectorDrawables are also more memory-efficient."
+  },
+  {
+    "questionNumber": "2580",
+    "question": "What is the Android Doze mode, and how does it affect app background processes?",
+    "answer": "Android's Doze mode is a power-saving feature that restricts background processes when a device is in a deep sleep state. It affects app background processes by deferring them, batching them together, and limiting network access, resulting in less frequent and optimized background execution."
+  },
+  {
+    "questionNumber": "2581",
+    "question": "Explain the purpose of Android's SharedPreferences.Editor and how it is used to modify shared preferences.",
+    "answer": "Android's SharedPreferences.Editor is used to modify the values stored in SharedPreferences. It provides methods for adding, updating, or removing key-value pairs. Changes made using SharedPreferences.Editor are applied atomically and in-memory before being committed to persistent storage."
+  },
+  {
+    "questionNumber": "2582",
+    "question": "What is Android's Traceview tool, and how is it used for performance profiling?",
+    "answer": "Android's Traceview is a performance profiling tool that captures and analyzes method execution times in an Android application. It helps developers identify performance bottlenecks, view method call hierarchies, and optimize code for better app performance."
+  },
+  {
+    "questionNumber": "2583",
+    "question": "Explain the purpose of the 'adb install-multiple' command in Android development.",
+    "answer": "The 'adb install-multiple' command is used to install multiple APK files onto a connected Android device or emulator in a single command. It simplifies the process of deploying multiple APKs for testing or distribution, especially when dealing with split APKs or app bundles.
+
+"2584",
+    "question": "What is the Android Accessibility Scanner, and how does it assist developers in improving app accessibility?",
+    "answer": "The Android Accessibility Scanner is a tool that helps developers identify and fix accessibility issues in their apps. It provides recommendations and suggestions for improving app accessibility, ensuring that the app is usable by a wider audience, including users with disabilities."
+  },
+  {
+    "questionNumber": "2585",
+    "question": "Explain the purpose of Android's JobIntentService and how it simplifies background tasks.",
+    "answer": "Android's JobIntentService is a compatibility version of IntentService that works seamlessly with JobScheduler. It simplifies background tasks by handling job execution on a background thread, ensuring compatibility with modern Android features while providing a consistent API."
+  },
+  {
+    "questionNumber": "2586",
+    "question": "What is the Android Navigation Component, and how does it simplify app navigation?",
+    "answer": "The Android Navigation Component is a Jetpack library that simplifies app navigation by providing a single, consistent API for navigating between app destinations, such as fragments and activities. It abstracts navigation logic, simplifies back stack management, and enhances developer productivity."
+  },
+  {
+    "questionNumber": "2587",
+    "question": "Explain the purpose of the 'adb shell wm' command in Android development.",
+    "answer": "The 'adb shell wm' command is used to interact with the Window Manager service on an Android device or emulator. It allows developers to manipulate display settings, screen resolutions, and window configurations for testing and debugging purposes."
+  },
+  {
+    "questionNumber": "2588",
+    "question": "What is Android's ExoPlayer, and how does it simplify multimedia playback in apps?",
+    "answer": "Android's ExoPlayer is an open-source media player library that simplifies multimedia playback in apps. It supports various media formats, adaptive streaming, and advanced features like DRM. ExoPlayer provides a flexible API for building media-rich apps with high-quality playback."
+  },
+  {
+    "questionNumber": "2589",
+    "question": "Explain the purpose of Android's WebViewClient and WebChromeClient classes in WebView usage.",
+    "answer": "Android's WebViewClient is used to customize the behavior of WebView when loading web pages, handling redirects, and managing page loading events. WebChromeClient is used to handle JavaScript dialogs, console messages, and other browser-related interactions within WebView."
+  },
+  {
+    "questionNumber": "2590",
+    "question": "What is Android's App Links feature, and how does it improve the user experience?",
+    "answer": "Android's App Links is a feature that allows apps to handle specific web URLs directly, improving the user experience by seamlessly navigating users from a web link to the corresponding app content. It enhances deep linking and engagement between web and app experiences."
+  },
+  {
+    "questionNumber": "2591",
+    "question": "Explain the purpose of Android's ConstraintLayout and how it simplifies UI design.",
+    "answer": "Android's ConstraintLayout is a flexible layout manager that simplifies UI design by creating complex layouts with a flat view hierarchy. It allows developers to define responsive layouts with constraints, enabling better control over element positioning and alignment."
+  },
+  {
+    "questionNumber": "2592",
+    "question": "What is Android's BiometricPrompt, and how does it enhance app security?",
+    "answer": "Android's BiometricPrompt is an API that allows apps to integrate biometric authentication methods, such as fingerprint and face recognition, for user authentication and app security. It provides a standardized and secure way to authenticate users and protect sensitive app data."
+  },
+  {
+    "questionNumber": "2593",
+    "question": "Explain the purpose of Android's JobScheduler API and how it benefits app performance.",
+    "answer": "Android's JobScheduler API is used to schedule background tasks efficiently. It benefits app performance by allowing the system to optimize the execution of tasks, reducing battery consumption and improving overall system responsiveness."
+  },
+  {
+    "questionNumber": "2594",
+    "question": "What is Android's Material Design Components (MDC) library, and how does it enhance app design?",
+    "answer": "Android's Material Design Components (MDC) library is a set of UI components that adhere to Google's Material Design guidelines. It enhances app design by providing pre-designed, customizable components for creating consistent and visually appealing user interfaces."
+  },
+  {
+    "questionNumber": "2595",
+    "question": "Explain the purpose of Android's PackageManager.getInstalledApplications() method.",
+    "answer": "Android's PackageManager.getInstalledApplications() method is used to retrieve a list of all installed applications on a device. It provides information about the installed apps, including package names, permissions, and other details, making it useful for various app management tasks."
+  },
+  {
+    "questionNumber": "2596",
+    "question": "What is Android's Room Persistence Library, and how does it simplify database access?",
+    "answer": "Android's Room Persistence Library is part of the Android Jetpack and provides an abstraction layer over SQLite databases. It simplifies database access by offering a convenient API for database operations, SQL query generation, and LiveData support for real-time data updates."
+  },
+  {
+    "questionNumber": "2597",
+    "question": "Explain the purpose of the 'adb shell dumpsys gfxinfo' command in Android development.",
+    "answer": "The 'adb shell dumpsys gfxinfo' command is used to collect and display graphical rendering performance information for an app. It provides insights into rendering times, frame rates, and other metrics, helping developers identify and address performance issues related to graphics."
+  },
+  {
+    "questionNumber": "2598",
+    "question": "What is Android's Bottom Navigation View, and how is it used for app navigation?",
+    "answer": "Android's Bottom Navigation View is a UI component that allows developers to implement a bottom navigation bar for app navigation. It typically provides easy access to primary destinations within the app and supports switching between views or fragments."
+  },
+  {
+    "questionNumber": "2599",
+    "question": "Explain the purpose of Android's Notification Channels and how they enhance user control over notifications.",
+    "answer": "Android's Notification Channels allow apps to group and categorize notifications. They enhance user control over notifications by allowing users to customize notification settings for each channel, including sound, vibration, and importance level, providing a more personalized notification experience."
+  }
+]
