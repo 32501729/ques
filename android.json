@@ -419,6 +419,8 @@
     "question": "Explain the purpose of the 'adb install-multiple' command in Android development.",
     "answer": "The 'adb install-multiple' command is used to install multiple APK files onto a connected Android device or emulator in a single command. It simplifies the process of deploying multiple APKs for testing or distribution, especially when dealing with split APKs or app bundles"
   },
+  {
+    "questionNumber": "2583",
     "question": "What is the Android Accessibility Scanner, and how does it assist developers in improving app accessibility?",
     "answer": "The Android Accessibility Scanner is a tool that helps developers identify and fix accessibility issues in their apps. It provides recommendations and suggestions for improving app accessibility, ensuring that the app is usable by a wider audience, including users with disabilities."
   },
