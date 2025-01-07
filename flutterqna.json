@@ -1,0 +1,502 @@
+[
+  {
+    "questionNumber": "100",
+    "question": "What is Flutter?",
+    "answer": "Flutter is an open-source UI software development toolkit created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase."
+  },
+  {
+    "questionNumber": "101",
+    "question": "What programming language is used for Flutter development?",
+    "answer": "Dart is the programming language used for Flutter development. It's a client-optimized language developed by Google for fast apps on multiple platforms."
+  },
+  {
+    "questionNumber": "102",
+    "question": "What is a widget in Flutter?",
+    "answer": "In Flutter, a widget is a basic building block of the user interface. Everything in Flutter is a widget, from buttons and text to layouts and animations."
+  },
+  {
+    "questionNumber": "103",
+    "question": "What is the difference between Stateless and Stateful widgets in Flutter?",
+    "answer": "Stateless widgets are immutable and their properties can't change over time. Stateful widgets have mutable state that can change during the lifetime of the widget."
+  },
+  {
+    "questionNumber": "104",
+    "question": "What is hot reload in Flutter?",
+    "answer": "Hot reload is a feature in Flutter that allows developers to see the effect of code changes almost instantly, without losing the current application state."
+  },
+  {
+    "questionNumber": "105",
+    "question": "What is the Flutter widget tree?",
+    "answer": "The Flutter widget tree is a hierarchy of widgets that describes the user interface of a Flutter app. Each widget in the tree is a child of its parent widget."
+  },
+  {
+    "questionNumber": "106",
+    "question": "What is the purpose of the 'pubspec.yaml' file in a Flutter project?",
+    "answer": "The pubspec.yaml file is used to specify the dependencies, assets, and other configuration details for a Flutter project. It's where you declare the packages your app needs."
+  },
+  {
+    "questionNumber": "107",
+    "question": "What is the difference between 'main()' and 'runApp()' in Flutter?",
+    "answer": "'main()' is the entry point of a Dart program, while 'runApp()' is a Flutter function that inflates the given widget and attaches it to the screen."
+  },
+  {
+    "questionNumber": "108",
+    "question": "What is the purpose of the 'BuildContext' in Flutter?",
+    "answer": "BuildContext represents the location of a widget in the widget tree. It's used for obtaining theme, media query, navigator, and other information from the widget's ancestors."
+  },
+  {
+    "questionNumber": "109",
+    "question": "What is the 'setState()' method used for in Flutter?",
+    "answer": "The setState() method is used to notify the framework that the internal state of a Stateful widget has changed, triggering a rebuild of the widget."
+  },
+  {
+    "questionNumber": "110",
+    "question": "What is the purpose of the 'Container' widget in Flutter?",
+    "answer": "The Container widget in Flutter is a convenience widget that combines common painting, positioning, and sizing widgets. It's often used for decorating or constraining its child widget."
+  },
+  {
+    "questionNumber": "111",
+    "question": "What is the difference between 'final' and 'const' in Dart?",
+    "answer": "'final' variables can only be set once and are initialized when accessed, while 'const' variables are compile-time constants and implicitly final."
+  },
+  {
+    "questionNumber": "112",
+    "question": "What is the purpose of the 'async' and 'await' keywords in Dart?",
+    "answer": "'async' and 'await' are used for asynchronous programming in Dart. 'async' marks a function as asynchronous, and 'await' is used to wait for a Future to complete before continuing execution."
+  },
+  {
+    "questionNumber": "113",
+    "question": "What is the Flutter DevTools?",
+    "answer": "Flutter DevTools is a suite of performance and debugging tools for Dart and Flutter. It includes tools for inspecting the UI, diagnosing performance issues, and debugging."
+  },
+  {
+    "questionNumber": "114",
+    "question": "What is the purpose of the 'ListView' widget in Flutter?",
+    "answer": "The ListView widget is used to create a scrollable list of widgets. It's efficient for displaying a large number of children that won't all fit on the screen at once."
+  },
+  {
+    "questionNumber": "115",
+    "question": "What is the difference between 'MaterialApp' and 'CupertinoApp' in Flutter?",
+    "answer": "MaterialApp implements the Material Design visual style for Android, while CupertinoApp implements the iOS design language. They provide different default themes and behaviors."
+  },
+  {
+    "questionNumber": "116",
+    "question": "What is the purpose of the 'Future' class in Dart?",
+    "answer": "The Future class represents a computation that doesn't complete immediately. It's used for handling asynchronous operations and can complete with a value or an error."
+  },
+  {
+    "questionNumber": "117",
+    "question": "What is the 'SafeArea' widget in Flutter and when should it be used?",
+    "answer": "SafeArea is a widget that insets its child by sufficient padding to avoid intrusions by the operating system. It should be used to prevent UI elements from being obscured by notches, status bars, etc."
+  },
+  {
+    "questionNumber": "118",
+    "question": "What is the purpose of the 'Navigator' class in Flutter?",
+    "answer": "The Navigator class manages a stack of Route objects and provides methods for managing the stack, like push() and pop(), allowing for navigation between screens in a Flutter app."
+  },
+  {
+    "questionNumber": "119",
+    "question": "What is the difference between 'SizedBox' and 'Container' in Flutter?",
+    "answer": "SizedBox is a simpler widget used to give a specific width and height to its child. Container is more versatile, offering additional properties like decoration, padding, and margin."
+  },
+  {
+    "questionNumber": "120",
+    "question": "What is the purpose of the 'FutureBuilder' widget in Flutter?",
+    "answer": "FutureBuilder is used to create widgets based on the latest snapshot of interaction with a Future. It's commonly used for handling asynchronous data loading in the UI."
+  },
+  {
+    "questionNumber": "121",
+    "question": "What is the 'Scaffold' widget in Flutter?",
+    "answer": "Scaffold is a basic Material Design visual layout structure. It provides APIs for showing drawers, snack bars, and bottom sheets, and is typically used as the root widget of a screen."
+  },
+  {
+    "questionNumber": "122",
+    "question": "What is the purpose of the 'StreamBuilder' widget in Flutter?",
+    "answer": "StreamBuilder is similar to FutureBuilder, but it works with Streams instead of Futures. It rebuilds itself based on the latest value emitted by a Stream."
+  },
+  {
+    "questionNumber": "123",
+    "question": "What is the difference between 'WidgetsApp' and 'MaterialApp' in Flutter?",
+    "answer": "WidgetsApp is a basic app widget that provides a framework for widgets, while MaterialApp is a convenience widget that wraps several widgets commonly required for Material Design applications."
+  },
+  {
+    "questionNumber": "124",
+    "question": "What is the purpose of the 'InheritedWidget' in Flutter?",
+    "answer": "InheritedWidget is used to efficiently propagate information down the widget tree. It allows descendant widgets to access data from ancestors without explicitly passing it through constructors."
+  },
+  {
+    "questionNumber": "125",
+    "question": "What is the 'BuildContext' in Flutter and how is it used?",
+    "answer": "BuildContext represents the location of a widget in the widget tree. It's used to obtain references to other widgets or theme data, and for navigation."
+  },
+  {
+    "questionNumber": "126",
+    "question": "What is the purpose of the 'Key' parameter in Flutter widgets?",
+    "answer": "Keys are used to preserve state when widgets move around in the widget tree. They help Flutter identify which widgets should be rebuilt or reused when the widget tree changes."
+  },
+  {
+    "questionNumber": "127",
+    "question": "What is the difference between 'Expanded' and 'Flexible' widgets in Flutter?",
+    "answer": "Both Expanded and Flexible allow a child of a Row, Column, or Flex to expand to fill available space. Expanded is equivalent to Flexible with a fit of FlexFit.tight, forcing the child to fill the available space."
+  },
+  {
+    "questionNumber": "128",
+    "question": "What is the purpose of the 'MediaQuery' class in Flutter?",
+    "answer": "MediaQuery provides information about the current app's media environment, such as the size and orientation of the screen, text scaling factor, and platform brightness."
+  },
+  {
+    "questionNumber": "129",
+    "question": "What is the 'Theme' widget in Flutter and how is it used?",
+    "answer": "The Theme widget is used to define the visual aspects of an app, such as colors and font styles. It allows for consistent styling across the app and easy theme changes."
+  },
+  {
+    "questionNumber": "130",
+    "question": "What is the purpose of the 'GestureDetector' widget in Flutter?",
+    "answer": "GestureDetector is a widget that detects various user gestures like taps, drags, and scales. It's used to add interactivity to otherwise static widgets."
+  },
+  {
+    "questionNumber": "131",
+    "question": "What is the difference between 'SingleChildScrollView' and 'ListView' in Flutter?",
+    "answer": "SingleChildScrollView is used for scrolling a single child, while ListView is optimized for scrolling multiple children. ListView is more efficient for long lists as it only renders visible items."
+  },
+  {
+    "questionNumber": "132",
+    "question": "What is the purpose of the 'Provider' package in Flutter?",
+    "answer": "Provider is a state management solution that allows for efficient dependency injection and state management in Flutter apps. It uses InheritedWidget under the hood to propagate data down the widget tree."
+  },
+  {
+    "questionNumber": "133",
+    "question": "What is the 'AppBar' widget in Flutter?",
+    "answer": "AppBar is a Material Design app bar that typically appears at the top of an app screen. It can contain a title, actions, and other customizable widgets."
+  },
+  {
+    "questionNumber": "134",
+    "question": "What is the purpose of the 'AnimationController' in Flutter?",
+    "answer": "AnimationController manages the state of an animation. It defines the duration and direction of an animation and can pause, resume, or reverse the animation."
+  },
+  {
+    "questionNumber": "135",
+    "question": "What is the difference between 'StatelessWidget' and 'StatefulWidget' in Flutter?",
+    "answer": "StatelessWidget is immutable and cannot change its state during the lifetime of the widget. StatefulWidget can change its state and rebuild itself when the state changes."
+  },
+  {
+    "questionNumber": "136",
+    "question": "What is the purpose of the 'LayoutBuilder' widget in Flutter?",
+    "answer": "LayoutBuilder provides its builder with the parent widget's constraints, allowing for the creation of responsive layouts that adapt to different screen sizes or orientations."
+  },
+  {
+    "questionNumber": "137",
+    "question": "What is the 'Hero' widget in Flutter and when is it used?",
+    "answer": "The Hero widget is used to create animated transitions between routes (screens) for a shared element. It's often used for a seamless visual connection between screens."
+  },
+  {
+    "questionNumber": "138",
+    "question": "What is the purpose of the 'FocusNode' in Flutter?",
+    "answer": "FocusNode is used to control the focus of input widgets. It can be used to programmatically request, release, or move focus between different text fields or other focusable widgets."
+  },
+  {
+    "questionNumber": "139",
+    "question": "What is the 'ValueNotifier' class in Flutter?",
+    "answer": "ValueNotifier is a class that provides a way to wrap a single value and listen for changes to that value. It's useful for simple state management scenarios."
+  },
+  {
+    "questionNumber": "140",
+    "question": "What is the purpose of the 'Dismissible' widget in Flutter?",
+    "answer": "Dismissible is a widget that can be dismissed by dragging in a specified direction. It's often used in list views to allow users to remove items by swiping."
+  },
+  {
+    "questionNumber": "141",
+    "question": "What is the 'InkWell' widget in Flutter?",
+    "answer": "InkWell is a rectangular area of a Material that responds to touch. It's similar to GestureDetector but provides visual feedback in the form of an ink splash when tapped."
+  },
+  {
+    "questionNumber": "142",
+    "question": "What is the purpose of the 'SliverAppBar' in Flutter?",
+    "answer": "SliverAppBar is a Material Design app bar that integrates with a CustomScrollView. It can be configured to shrink and expand as the view is scrolled."
+  },
+  {
+    "questionNumber": "143",
+    "question": "What is the difference between 'async' and 'sync*' functions in Dart?",
+    "answer": "'async' functions return a Future and are used for asynchronous operations. 'sync*' functions return an Iterable and are used for synchronous generators."
+  },
+  {
+    "questionNumber": "144",
+    "question": "What is the purpose of the 'GlobalKey' in Flutter?",
+    "answer": "GlobalKey is a key that is unique across the entire app. It's used to access widget information across the widget tree and can be used to access the state of a StatefulWidget from outside."
+  },
+  {
+    "questionNumber": "145",
+    "question": "What is the 'ChangeNotifier' class in Flutter?",
+    "answer": "ChangeNotifier is a class that provides change notification to its listeners. It's commonly used in state management to notify widgets when data changes."
+  },
+  {
+    "questionNumber": "146",
+    "question": "What is the purpose of the 'FractionallySizedBox' widget in Flutter?",
+    "answer": "FractionallySizedBox sizes its child to a fraction of the total available space. It's useful for creating responsive layouts where a widget should occupy a certain percentage of its parent."
+  },
+  {
+    "questionNumber": "147",
+    "question": "What is the 'CustomPainter' class in Flutter?",
+    "answer": "CustomPainter is used for creating custom paint operations on a Canvas. It's useful for drawing custom shapes, graphs, or other visual elements that can't be easily created with existing widgets."
+  },
+  {
+    "questionNumber": "148",
+    "question": "What is the purpose of the 'didUpdateWidget' method in a StatefulWidget?",
+    "answer": "The didUpdateWidget method is called when a parent widget rebuilds and provides the StatefulWidget with a new instance. It's used to respond to changes in the widget's configuration."
+  },
+  {
+    "questionNumber": "149",
+    "question": "What is the 'Stack' widget in Flutter and when is it used?",
+    "answer": "Stack is a widget that positions its children relative to the edges of its box. It's used when you need to overlap several children in a simple way, like placing text over an image."
+  },
+  {
+    "questionNumber": "150",
+    "question": "What is the purpose of the 'Positioned' widget in Flutter?",
+    "answer": "Positioned is a widget that controls where a child of a Stack is positioned. It's used to precisely position widgets within a Stack by specifying top, right, bottom, or left values."
+  },
+  {
+    "questionNumber": "151",
+    "question": "What is the 'ClipRRect' widget in Flutter?",
+    "answer": "ClipRRectClipRRect is a widget that clips its child using a rounded rectangle. It's commonly used to create rounded corners for images or other widgets that don't have a built-in border radius property."
+  },
+  {
+    "questionNumber": "152",
+    "question": "What is the purpose of the 'AspectRatio' widget in Flutter?",
+    "answer": "AspectRatio is a widget that attempts to size the child to a specific aspect ratio. It's useful for maintaining a consistent width-to-height ratio for widgets, regardless of screen size."
+  },
+  {
+    "questionNumber": "153",
+    "question": "What is the 'FutureProvider' in Flutter?",
+    "answer": "FutureProvider is a widget that asynchronously provides a value to its descendants. It's part of the Provider package and is used for providing values that are obtained asynchronously, such as from an API call."
+  },
+  {
+    "questionNumber": "154",
+    "question": "What is the purpose of the 'WillPopScope' widget in Flutter?",
+    "answer": "WillPopScope is a widget that allows you to control the behavior when the user tries to dismiss the current route. It's often used to prevent accidental exits or to show confirmation dialogs before leaving a screen."
+  },
+  {
+    "questionNumber": "155",
+    "question": "What is the 'AnimatedBuilder' widget in Flutter?",
+    "answer": "AnimatedBuilder is a widget that rebuilds when the given animation changes value. It's used to efficiently rebuild only the parts of the UI that depend on an animation, rather than the entire subtree."
+  },
+  {
+    "questionNumber": "156",
+    "question": "What is the purpose of the 'Visibility' widget in Flutter?",
+    "answer": "Visibility is a widget that shows or hides its child. It's used to conditionally show or hide parts of the UI without removing them from the widget tree, which can be more efficient than rebuilding."
+  },
+  {
+    "questionNumber": "157",
+    "question": "What is the 'Semantics' widget in Flutter?",
+    "answer": "Semantics is a widget that annotates the widget tree with descriptions of the user interface. It's used to improve the accessibility of your app, particularly for users with visual impairments."
+  },
+  {
+    "questionNumber": "158",
+    "question": "What is the purpose of the 'RepaintBoundary' widget in Flutter?",
+    "answer": "RepaintBoundary is a widget that creates a separate display list for its child. It's used to optimize the rendering performance by isolating animations or frequently changing widgets from the rest of the UI."
+  },
+  {
+    "questionNumber": "159",
+    "question": "What is the 'ValueListenableBuilder' in Flutter?",
+    "answer": "ValueListenableBuilder is a widget that rebuilds parts of the UI when a ValueListenable changes. It's used for efficient rebuilding of UI elements that depend on a single value that changes over time."
+  },
+  {
+    "questionNumber": "160",
+    "question": "What is the purpose of the 'Transform' widget in Flutter?",
+    "answer": "Transform is a widget that applies a transformation before painting its child. It's used to create visual effects like rotation, scaling, or skewing of widgets."
+  },
+  {
+    "questionNumber": "161",
+    "question": "What is the 'IgnorePointer' widget in Flutter?",
+    "answer": "IgnorePointer is a widget that makes its child widget non-interactive. It's used when you want to disable user interaction with a part of your UI temporarily."
+  },
+  {
+    "questionNumber": "162",
+    "question": "What is the purpose of the 'Offstage' widget in Flutter?",
+    "answer": "Offstage is a widget that lays out its child as if it was in the tree, but without painting anything. It's used to hide widgets without removing them from the layout, which can be useful for animations or conditional UI."
+  },
+  {
+    "questionNumber": "163",
+    "question": "What is the 'AnimatedSwitcher' widget in Flutter?",
+    "answer": "AnimatedSwitcher is a widget that animates the transition when its child is replaced with a new one. It's used to create smooth transitions between different widgets or states in the UI."
+  },
+  {
+    "questionNumber": "164",
+    "question": "What is the purpose of the 'FittedBox' widget in Flutter?",
+    "answer": "FittedBox is a widget that scales and positions its child within itself. It's used to fit a widget into a space that's a different size, often to prevent overflow or to maintain aspect ratio."
+  },
+  {
+    "questionNumber": "165",
+    "question": "What is the 'Draggable' widget in Flutter?",
+    "answer": "Draggable is a widget that can be dragged from one place to another. It's used to implement drag-and-drop functionality in Flutter apps."
+  },
+  {
+    "questionNumber": "166",
+    "question": "What is the purpose of the 'SliverList' widget in Flutter?",
+    "answer": "SliverList is a sliver that places multiple box children in a linear array. It's used in custom scroll views to create scrollable lists of varying sizes."
+  },
+  {
+    "questionNumber": "167",
+    "question": "What is the 'AnimatedOpacity' widget in Flutter?",
+    "answer": "AnimatedOpacity is a widget that automatically transitions its child's opacity over a given duration whenever the opacity changes. It's used to create fade-in or fade-out effects."
+  },
+  {
+    "questionNumber": "168",
+    "question": "What is the purpose of the 'PageView' widget in Flutter?",
+    "answer": "PageView is a widget that allows the user to swipe horizontally to switch between different pages or screens. It's commonly used for onboarding flows, image galleries, or tab-like interfaces."
+  },
+  {
+    "questionNumber": "169",
+    "question": "What is the 'LimitedBox' widget in Flutter?",
+    "answer": "LimitedBox is a box that limits its size only when it's unconstrained. It's used to give a child widget a maximum size when it would otherwise be allowed to grow without bounds."
+  },
+  {
+    "questionNumber": "170",
+    "question": "What is the purpose of the 'OverflowBox' widget in Flutter?",
+    "answer": "OverflowBox is a widget that imposes different constraints on its child than it gets from its parent, possibly allowing the child to overflow. It's used when you want a child to have a specific size regardless of its parent's constraints."
+  },
+  {
+    "questionNumber": "171",
+    "question": "What is the 'Wrap' widget in Flutter?",
+    "answer": "Wrap is a widget that displays its children in multiple horizontal or vertical runs. It's used when you want to display a list of widgets that might overflow a single line, automatically wrapping to the next line."
+  },
+  {
+    "questionNumber": "172",
+    "question": "What is the purpose of the 'Listener' widget in Flutter?",
+    "answer": "Listener is a widget that detects gestures. Unlike GestureDetector, it provides callbacks for low-level pointer events like pointerDown, pointerMove, etc. It's used for custom gesture recognition."
+  },
+  {
+    "questionNumber": "173",
+    "question": "What is the 'AnimatedContainer' widget in Flutter?",
+    "answer": "AnimatedContainer is a container that gradually changes its values over a period of time. It's used to create smooth transitions for properties like color, size, or padding without explicitly managing an animation controller."
+  },
+  {
+    "questionNumber": "174",
+    "question": "What is the purpose of the 'DefaultTextStyle' widget in Flutter?",
+    "answer": "DefaultTextStyle is a widget that specifies default text styles for its descendants. It's used to set consistent text styles for a subtree of widgets without explicitly setting the style on each Text widget."
+  },
+  {
+    "questionNumber": "175",
+    "question": "What is the 'Table' widget in Flutter?",
+    "answer": "Table is a widget that displays its children in a two-dimensional array. It's used to create layouts with rows and columns, similar to HTML tables."
+  },
+  {
+    "questionNumber": "176",
+    "question": "What is the purpose of the 'Baseline' widget in Flutter?",
+    "answer": "Baseline is a widget that positions its child according to the child's baseline. It's used for precise text alignment, especially when mixing widgets of different sizes or types."
+  },
+  {
+    "questionNumber": "177",
+    "question": "What is the 'Scrollbar' widget in Flutter?",
+    "answer": "Scrollbar is a widget that displays a scrollbar in conjunction with a scrollable widget. It provides a visual indicator of the current scroll position and can be customized in appearance."
+  },
+  {
+    "questionNumber": "178",
+    "question": "What is the purpose of the 'Directionality' widget in Flutter?",
+    "answer": "Directionality is a widget that determines the ambient directionality of text and text-direction-sensitive render objects. It's used to set the text direction (left-to-right or right-to-left) for its descendants."
+  },
+  {
+    "questionNumber": "179",
+    "question": "What is the 'Opacity' widget in Flutter?",
+    "answer": "Opacity is a widget that makes its child partially transparent. It's used to fade widgets in and out or to create a see-through effect."
+  },
+  {
+    "questionNumber": "180",
+    "question": "What is the purpose of the 'Align' widget in Flutter?",
+    "answer": "Align is a widget that aligns its child within itself and optionally sizes itself based on the child's size. It's used for precise positioning of widgets within their parents."
+  },
+  {
+    "questionNumber": "181",
+    "question": "What is the 'Tooltip' widget in Flutter?",
+    "answer": "Tooltip is a widget that displays informative text when the user long-presses on the wrapped widget. It's used to provide additional information or context for UI elements."
+  },
+  {
+    "questionNumber": "182",
+    "question": "What is the purpose of the 'Placeholder' widget in Flutter?",
+    "answer": "Placeholder is a widget that draws a box representing where other widgets will one day be added. It's used as a visual placeholder during development or when content is loading."
+  },
+  {
+    "questionNumber": "183",
+    "question": "What is the 'ReorderableListView' widget in Flutter?",
+    "answer": "ReorderableListView is a list where the user can reorder items by dragging them. It's used to create interactive, reorderable lists of items."
+  },
+  {
+    "questionNumber": "184",
+    "question": "What is the purpose of the 'Spacer' widget in Flutter?",
+    "answer": "Spacer is a widget that takes up space proportional to its flex value. It's used to create flexible empty space between other widgets in a Flex container like Row or Column."
+  },
+  {
+    "questionNumber": "185",
+    "question": "What is the 'IndexedStack' widget in Flutter?",
+    "answer": "IndexedStack is a Stack that shows a single child from a list of children. It's used when you want to display only one child at a time from a list of widgets, often for state-based UI changes."
+  },
+  {
+    "questionNumber": "186",
+    "question": "What is the purpose of the 'ConstrainedBox' widget in Flutter?",
+    "answer": "ConstrainedBox is a widget that imposes additional constraints on its child. It's used to enforce minimum or maximum dimensions on a child widget."
+  },
+  {
+    "questionNumber": "187",
+    "question": "What is the 'Chip' widget in Flutter?",
+    "answer": "Chip is a Material Design widget that represents a compact element, such as an attribute or action. It's used to display information, make selections, filter content, or trigger actions."
+  },
+  {
+    "questionNumber": "188",
+    "question": "What is the purpose of the 'Divider' widget in Flutter?",
+    "answer": "Divider is a thin horizontal line with padding on either side. It's used to separate content in lists or layouts."
+  },
+  {
+    "questionNumber": "189",
+    "question": "What is the 'Stepper' widget in Flutter?",
+    "answer": "Stepper is a Material Design widget that displays progress through a sequence of steps. It's used to break down complex tasks or processes into manageable steps."
+  },
+  {
+    "questionNumber": "190",
+    "question": "What is the purpose of the 'Flexible' widget in Flutter?",
+    "answer": "Flexible is a widget that controls how a child of a Row, Column, or Flex flexes. It's used to create flexible layouts where widgets can grow or shrink based on available space."
+  },
+  {
+    "questionNumber": "191",
+    "question": "What is the 'Drawer' widget in Flutter?",
+    "answer": "Drawer is a Material Design panel that slides in horizontally from the edge of a Scaffold to show navigation links in an application. It's used to provide access to destinations and app functionality."
+  },
+  {
+    "questionNumber": "192",
+    "question": "What is the purpose of the 'CircularProgressIndicator' widget in Flutter?",
+    "answer": "CircularProgressIndicator is a widget that shows progress by animating an arc of a circle. It's used to indicate that an operation is in progress, especially when the operation's length is unknown."
+  },
+  {
+    "questionNumber": "193",
+    "question": "What is the 'ExpansionPanel' widget in Flutter?",
+    "answer": "ExpansionPanel is a widget that provides an expandable container to reveal more information. It's typically used in conjunction with ExpansionPanelList to create an accordion-like interface."
+  },
+  {
+    "questionNumber": "194",
+    "question": "What is the purpose of the 'CupertinoSwitch' widget in Flutter?",
+    "answer": "CupertinoSwitch is an iOS-style switch. It's used in iOS-style interfaces to toggle between two mutually exclusive states, typically on and off."
+  },
+  {
+    "questionNumber": "195",
+    "question": "What is the 'Slider' widget in Flutter?",
+    "answer": "Slider is a Material Design widget that lets users select from a range of values by moving a thumb along a track. It's used for adjusting settings like volume, brightness, or other numeric values."
+  },
+  {
+    "questionNumber": "196",
+    "question": "What is the purpose of the 'DropdownButton' widget in Flutter?",
+    "answer": "DropdownButton is a Material Design button that shows a menu when pressed. It's used to select one value from a list of items."
+  },
+  {
+    "questionNumber": "197",
+    "question": "What is the 'Padding' widget in Flutter?",
+    "answer": "Padding is a widget that insets its child by the given padding. It's used to add space around a widget."
+  },
+  {
+    "questionNumber": "198",
+    "question": "What is the purpose of the 'Flutter Inspector' tool?",
+    "answer": "The Flutter Inspector is a powerful tool for visualizing and exploring Flutter widget trees. It helps developers understand and debug their Flutter app's UI structure and properties."
+  },
+  {
+    "questionNumber": "199",
+    "question": "Explain the concept of 'keys' in Flutter and when they should be used.",
+    "answer": "Keys in Flutter are used to preserve state when widgets move around in the widget tree. They should be used when you have a list of widgets that can change order or when you need to preserve the state of a widget across rebuilds."
+  }
+]
