@@ -1,0 +1,502 @@
+[
+{
+"questionNumber": "3000",
+"question": "What is Jetpack Compose?",
+"answer": "Jetpack Compose is a modern UI toolkit for building native Android applications. It simplifies and accelerates UI development on Android using a declarative approach."
+},
+{
+"questionNumber": "3001",
+"question": "How does Jetpack Compose differ from the traditional View-based UI development?",
+"answer": "Jetpack Compose uses a declarative approach, where you describe what your UI should look like, rather than the imperative approach of the View system where you manually construct and update the UI."
+},
+{
+"questionNumber": "3002",
+"question": "What is a Composable function in Jetpack Compose?",
+"answer": "A Composable function is a function annotated with @Composable that describes a part of your UI. It can emit one or more UI elements and can be called by other Composable functions."
+},
+{
+"questionNumber": "3003",
+"question": "How do you create a basic UI element in Jetpack Compose?",
+"answer": "You create UI elements by calling Composable functions. For example, Text('Hello World') creates a text element displaying 'Hello World'."
+},
+{
+"questionNumber": "3004",
+"question": "What is the purpose of the @Composable annotation?",
+"answer": "The @Composable annotation tells the Compose compiler that this function is intended to convert data into UI. It allows the function to call other @Composable functions within it."
+},
+{
+"questionNumber": "3005",
+"question": "How does Jetpack Compose handle state?",
+"answer": "Jetpack Compose uses state objects and the remember function to handle state. When state changes, Compose automatically recomposes affected parts of the UI."
+},
+{
+"questionNumber": "3006",
+"question": "What is recomposition in Jetpack Compose?",
+"answer": "Recomposition is the process where Compose re-executes Composable functions when their inputs change, updating the UI to reflect the new state."
+},
+{
+"questionNumber": "3007",
+"question": "How do you create a button in Jetpack Compose?",
+"answer": "You can create a button using the Button composable function. For example: Button(onClick = { /* action */ }) { Text('Click me') }"
+},
+{
+"questionNumber": "3008",
+"question": "What is the purpose of the remember function in Jetpack Compose?",
+"answer": "The remember function is used to preserve state across recompositions. It returns the same value across multiple recompositions unless the key changes."
+},
+{
+"questionNumber": "3009",
+"question": "How do you handle user input in Jetpack Compose?",
+"answer": "User input is typically handled using state and event callbacks. For example, TextField composable can be used for text input, with its value and onValueChange parameters for managing the input state."
+},
+{
+"questionNumber": "3010",
+"question": "What is the difference between mutableStateOf and remember { mutableStateOf } in Jetpack Compose?",
+"answer": "mutableStateOf creates a mutable state object, while remember { mutableStateOf } creates a mutable state object and remembers it across recompositions."
+},
+{
+"questionNumber": "3011",
+"question": "How do you create a list in Jetpack Compose?",
+"answer": "You can create a list using the LazyColumn or LazyRow composables, which are the Compose equivalents of RecyclerView. These composables efficiently render only the visible items."
+},
+{
+"questionNumber": "3012",
+"question": "What is the purpose of the Modifier in Jetpack Compose?",
+"answer": "Modifiers in Jetpack Compose are used to decorate or augment a composable. They can change the composable's size, layout, appearance, or add high-level interactions like making it clickable."
+},
+{
+"questionNumber": "3013",
+"question": "How do you add padding to a Composable in Jetpack Compose?",
+"answer": "You can add padding using the padding modifier. For example: Text('Hello', modifier = Modifier.padding(16.dp))"
+},
+{
+"questionNumber": "3014",
+"question": "What is the Box composable in Jetpack Compose?",
+"answer": "Box is a layout composable that stacks its children on top of each other, similar to FrameLayout in the View system. It's useful for overlapping content."
+},
+{
+"questionNumber": "3015",
+"question": "How do you create a column layout in Jetpack Compose?",
+"answer": "You can create a column layout using the Column composable. For example: Column { Text('Item 1') Text('Item 2') }"
+},
+{
+"questionNumber": "3016",
+"question": "What is the difference between Column and LazyColumn in Jetpack Compose?",
+"answer": "Column renders all its items at once, while LazyColumn renders only the visible items, making it more efficient for long lists."
+},
+{
+"questionNumber": "3017",
+"question": "How do you create a row layout in Jetpack Compose?",
+"answer": "You can create a row layout using the Row composable. For example: Row { Text('Left') Text('Right') }"
+},
+{
+"questionNumber": "3018",
+"question": "What is the purpose of the Scaffold composable in Jetpack Compose?",
+"answer": "Scaffold implements the basic material design visual layout structure. It provides slots for common top-level material components like TopAppBar, BottomAppBar, FloatingActionButton, and Drawer."
+},
+{
+"questionNumber": "3019",
+"question": "How do you handle navigation in Jetpack Compose?",
+"answer": "Navigation in Jetpack Compose is typically handled using the Navigation component from the Jetpack libraries, which provides a NavHost composable for defining navigation graphs."
+},
+{
+"questionNumber": "3020",
+"question": "What is the purpose of the preview annotation in Jetpack Compose?",
+"answer": "The @Preview annotation allows you to see a preview of your composable in Android Studio without running the app. It's useful for rapid UI development and iteration."
+},
+{
+"questionNumber": "3021",
+"question": "How do you create a custom theme in Jetpack Compose?",
+"answer": "You can create a custom theme by defining a MaterialTheme composable with custom Color, Typography, and Shapes parameters."
+},
+{
+"questionNumber": "3022",
+"question": "What is the purpose of the CompositionLocal in Jetpack Compose?",
+"answer": "CompositionLocal allows you to pass data implicitly down the compose tree without having to pass it explicitly through each composable function."
+},
+{
+"questionNumber": "3023",
+"question": "How do you handle click events in Jetpack Compose?",
+"answer": "Click events can be handled using the clickable modifier or the onClick parameter of interactive components. For example: Text('Click me', modifier = Modifier.clickable { /* action */ })"
+},
+{
+"questionNumber": "3024",
+"question": "What is the purpose of the LaunchedEffect in Jetpack Compose?",
+"answer": "LaunchedEffect is used to run suspend functions in the scope of a composable. It's typically used for side-effects that need to run in response to the composition."
+},
+{
+"questionNumber": "3025",
+"question": "How do you create a dialog in Jetpack Compose?",
+"answer": "You can create a dialog using the AlertDialog composable. It provides parameters for setting the title, text, buttons, and other properties of the dialog."
+},
+{
+"questionNumber": "3026",
+"question": "What is the purpose of the derivedStateOf function in Jetpack Compose?",
+"answer": "derivedStateOf is used to create a State that's derived from other State objects. It efficiently computes derived state, only recomputing when the state it depends on changes."
+},
+{
+"questionNumber": "3027",
+"question": "How do you implement lazy loading in Jetpack Compose?",
+"answer": "Lazy loading can be implemented using LazyColumn or LazyRow with their items or itemsIndexed functions. These only render the visible items, loading more as the user scrolls."
+},
+{
+"questionNumber": "3028",
+"question": "What is the purpose of the Crossfade animation in Jetpack Compose?",
+"answer": "Crossfade is an animation composable that smoothly animates between two different content layouts, fading out the old content while fading in the new content."
+},
+{
+"questionNumber": "3029",
+"question": "How do you create a custom shape in Jetpack Compose?",
+"answer": "Custom shapes can be created by implementing the Shape interface. You can then use this shape with the background or clip modifiers, or in a ShapeAppearance."
+},
+{
+"questionNumber": "3030",
+"question": "What is the purpose of the SideEffect composable in Jetpack Compose?",
+"answer": "SideEffect is used to perform side effects in response to recomposition. It's called on every successful recomposition and can be used to synchronize Compose state with non-Compose code."
+},
+{
+"questionNumber": "3031",
+"question": "How do you implement drag and drop functionality in Jetpack Compose?",
+"answer": "Drag and drop can be implemented using the draggable modifier for the draggable items and the droppable modifier for the drop targets, along with state management to track the drag operation."
+},
+{
+"questionNumber": "3032",
+"question": "What is the purpose of the AnimatedVisibility composable in Jetpack Compose?",
+"answer": "AnimatedVisibility is used to animate the appearance and disappearance of content. It provides built-in enter and exit animations for its content."
+},
+{
+"questionNumber": "3033",
+"question": "How do you create a custom layout in Jetpack Compose?",
+"answer": "Custom layouts can be created using the Layout composable. You define how to measure and place child composables within the layout."
+},
+{
+"questionNumber": "3034",
+"question": "What is the purpose of the rememberCoroutineScope function in Jetpack Compose?",
+"answer": "rememberCoroutineScope returns a CoroutineScope that's remembered across recompositions. It's useful for launching coroutines from event handlers that need to interact with the composition."
+},
+{
+"questionNumber": "3035",
+"question": "How do you implement infinite scrolling in Jetpack Compose?",
+"answer": "Infinite scrolling can be implemented using LazyColumn or LazyRow with the onLoadMore callback. You load more items when the user scrolls near the end of the current list."
+},
+{
+"questionNumber": "3036",
+"question": "What is the purpose of the DisposableEffect in Jetpack Compose?",
+"answer": "DisposableEffect is used to perform side effects that need cleanup. It provides a way to register disposal logic that's called when the composable leaves the composition."
+},
+{
+"questionNumber": "3037",
+"question": "How do you create a custom Modifier in Jetpack Compose?",
+"answer": "Custom Modifiers can be created using the Modifier.Node class. You define how the modifier affects layout, drawing, and other aspects of the composable."
+},
+{
+"questionNumber": "3038",
+"question": "What is the purpose of the produceState function in Jetpack Compose?",
+"answer": "produceState is used to convert non-Compose state into Compose state. It's useful for integrating with non-Compose code that produces values over time."
+},
+{
+"questionNumber": "3039",
+"question": "How do you implement swipe-to-dismiss functionality in Jetpack Compose?",
+"answer": "Swipe-to-dismiss can be implemented using the swipeable modifier along with state management to track the swipe progress and trigger the dismiss action."
+},
+{
+"questionNumber": "3040",
+"question": "What is the purpose of the ConstraintLayout in Jetpack Compose?",
+"answer": "ConstraintLayout in Compose allows for flexible positioning and sizing of composables, similar to ConstraintLayout in the View system. It's useful for creating complex layouts."
+},
+{
+"questionNumber": "3041",
+"question": "How do you handle configuration changes in Jetpack Compose?",
+"answer": "Jetpack Compose automatically handles configuration changes by preserving the state of composables. You can use rememberSaveable for state that needs to survive process death."
+},
+{
+"questionNumber": "3042",
+"question": "What is the purpose of the Modifier.composed function in Jetpack Compose?",
+"answer": "Modifier.composed allows you to create a custom modifier that can contain its own internal state and react to composition events."
+},
+{
+"questionNumber": "3043",
+"question": "How do you implement pull-to-refresh functionality in Jetpack Compose?",
+"answer": "Pull-to-refresh can be implemented using the SwipeRefresh composable from the accompanist-swiperefresh library, which provides a swipe-to-refresh container for scrollable content."
+},
+{
+"questionNumber": "3044",
+"question": "What is the purpose of the collectAsState function in Jetpack Compose?",
+"answer": "collectAsState is used to collect values from a Flow and represent its latest value as State in Compose. It's useful for integrating Flow-based data sources with Compose UI."
+},
+{
+"questionNumber": "3045",
+"question": "How do you create a bottom sheet in Jetpack Compose?",
+"answer": "A bottom sheet can be created using the ModalBottomSheetLayout composable, which provides a container for a persistent bottom sheet."
+},
+{
+"questionNumber": "3046",
+"question": "What is the purpose of the Modifier.semantics in Jetpack Compose?",
+"answer": "Modifier.semantics is used to add semantic properties to a composable, enhancing accessibility by providing additional information to accessibility services."
+},
+{
+"questionNumber": "3047",
+"question": "How do you implement a collapsing toolbar in Jetpack Compose?",
+"answer": "A collapsing toolbar can be implemented using a combination of Box, LazyColumn, and custom offset calculations based on scroll position."
+},
+{
+"questionNumber": "3048",
+"question": "What is the purpose of the Modifier.pointerInput in Jetpack Compose?",
+"answer": "Modifier.pointerInput is used to handle raw touch events. It's useful for implementing custom touch interactions that go beyond simple clicks or gestures."
+},
+{
+"questionNumber": "3049",
+"question": "How do you create a custom animation in Jetpack Compose?",
+"answer": "Custom animations can be created using the animate*AsState functions or the Animation API. You define how values should change over time and apply these to your composables."
+},
+{
+"questionNumber": "3050",
+"question": "What is the purpose of the Modifier.drawBehind in Jetpack Compose?",
+"answer": "Modifier.drawBehind allows you to draw custom content behind a composable. It's useful for adding custom backgrounds or decorations to composables."
+},
+{
+"questionNumber": "3051","questionNumber": "3051",
+"question": "What is the purpose of the Modifier.offset in Jetpack Compose?",
+"answer": "Modifier.offset is used to apply an offset to a composable, moving it from its original position. It's useful for creating custom layouts or animations."
+},
+{
+"questionNumber": "3052",
+"question": "How do you implement a custom gesture in Jetpack Compose?",
+"answer": "Custom gestures can be implemented using the pointerInput modifier. You can detect and track touch events to recognize specific gesture patterns."
+},
+{
+"questionNumber": "3053",
+"question": "What is the purpose of the Modifier.zIndex in Jetpack Compose?",
+"answer": "Modifier.zIndex is used to control the drawing order of overlapping composables. Higher z-index values are drawn on top of lower ones."
+},
+{
+"questionNumber": "3054",
+"question": "How do you create a custom transition in Jetpack Compose?",
+"answer": "Custom transitions can be created using the Transition API. You define how different properties should animate when transitioning between states."
+},
+{
+"questionNumber": "3055",
+"question": "What is the purpose of the Modifier.weight in Jetpack Compose?",
+"answer": "Modifier.weight is used in Row and Column to distribute available space among children. It's similar to layout_weight in the View system."
+},
+{
+"questionNumber": "3056",
+"question": "How do you implement a custom drawing in Jetpack Compose?",
+"answer": "Custom drawing can be implemented using the Canvas composable or the drawBehind modifier. You use the DrawScope to perform custom drawing operations."
+},
+{
+"questionNumber": "3057",
+"question": "What is the purpose of the Modifier.fillMaxSize in Jetpack Compose?",
+"answer": "Modifier.fillMaxSize is used to make a composable fill its parent's available space in both dimensions. It's equivalent to match_parent in the View system."
+},
+{
+"questionNumber": "3058",
+"question": "How do you create a custom theme color in Jetpack Compose?",
+"answer": "Custom theme colors can be created by defining new Color values and adding them to a custom Colors class used in your MaterialTheme."
+},
+{
+"questionNumber": "3059",
+"question": "What is the purpose of the Modifier.aspectRatio in Jetpack Compose?",
+"answer": "Modifier.aspectRatio is used to maintain a specific aspect ratio for a composable, regardless of its size. It's useful for creating responsive layouts."
+},
+{
+"questionNumber": "3060",
+"question": "How do you implement a custom layout animation in Jetpack Compose?",
+"answer": "Custom layout animations can be implemented using the animateContentSize modifier or by creating custom layout transitions with the Transition API."
+},
+{
+"questionNumber": "3061",
+"question": "What is the purpose of the Modifier.alpha in Jetpack Compose?",
+"answer": "Modifier.alpha is used to set the opacity of a composable. It affects the composable and all of its children."
+},
+{
+"questionNumber": "3062",
+"question": "How do you create a custom shape transition in Jetpack Compose?",
+"answer": "Custom shape transitions can be created using the Transition API with a custom Shape implementation. You define how the shape parameters should change during the transition."
+},
+{
+"questionNumber": "3063",
+"question": "What is the purpose of the Modifier.clip in Jetpack Compose?",
+"answer": "Modifier.clip is used to clip the content of a composable to a specific shape. It's useful for creating custom shaped views or masking content."
+},
+{
+"questionNumber": "3064",
+"question": "How do you implement a custom focus system in Jetpack Compose?",
+"answer": "A custom focus system can be implemented using the focus modifier and the FocusRequester class. You can programmatically control focus and react to focus changes."
+},
+{
+"questionNumber": "3065",
+"question": "What is the purpose of the Modifier.border in Jetpack Compose?",
+"answer": "Modifier.border is used to add a border around a composable. You can specify the width, color, and shape of the border."
+},
+{
+"questionNumber": "3066",
+"question": "How do you create a custom input method in Jetpack Compose?",
+"answer": "Custom input methods can be created using the BasicTextField composable and implementing custom visual transformations and key event handlers."
+},
+{
+"questionNumber": "3067",
+"question": "What is the purpose of the Modifier.shadow in Jetpack Compose?",
+"answer": "Modifier.shadow is used to add a shadow effect to a composable. You can specify the elevation, shape, and other shadow properties."
+},
+{
+"questionNumber": "3068",
+"question": "How do you implement a custom scrolling behavior in Jetpack Compose?",
+"answer": "Custom scrolling behaviors can be implemented using the scrollable modifier and custom scroll state management. You can control how content scrolls and reacts to scroll events."
+},
+{
+"questionNumber": "3069",
+"question": "What is the purpose of the Modifier.rotate in Jetpack Compose?",
+"answer": "Modifier.rotate is used to rotate a composable around its center. You can specify the rotation angle in degrees."
+},
+{
+"questionNumber": "3070",
+"question": "How do you create a custom text style in Jetpack Compose?",
+"answer": "Custom text styles can be created by defining a TextStyle object with the desired properties like font, size, color, and letter spacing."
+},
+{
+"questionNumber": "3071",
+"question": "What is the purpose of the Modifier.scale in Jetpack Compose?",
+"answer": "Modifier.scale is used to scale a composable. You can specify separate scale factors for the x and y dimensions."
+},
+{
+"questionNumber": "3072",
+"question": "How do you implement a custom snackbar in Jetpack Compose?",
+"answer": "A custom snackbar can be implemented using the Snackbar composable and customizing its content, duration, and action."
+},
+{
+"questionNumber": "3073",
+"question": "What is the purpose of the Modifier.graphicsLayer in Jetpack Compose?",
+"answer": "Modifier.graphicsLayer is used to apply rendering effects to a composable. It allows for more advanced visual transformations and optimizations."
+},
+{
+"questionNumber": "3074",
+"question": "How do you create a custom progress indicator in Jetpack Compose?",
+"answer": "A custom progress indicator can be created using the Canvas composable to draw the indicator, and animating its properties based on the progress value."
+},
+{
+"questionNumber": "3075",
+"question": "What is the purpose of the Modifier.blur in Jetpack Compose?",
+"answer": "Modifier.blur is used to apply a blur effect to a composable. You can specify the blur radius to control the intensity of the effect."
+},
+{
+"questionNumber": "3076",
+"question": "How do you implement a custom tooltip in Jetpack Compose?",
+"answer": "A custom tooltip can be implemented using a Popup composable that appears when hovering over or long-pressing a target composable."
+},
+{
+"questionNumber": "3077",
+"question": "What is the purpose of the Modifier.combinedClickable in Jetpack Compose?",
+"answer": "Modifier.combinedClickable is used to handle both click and long-press events on a composable. It provides a unified way to manage these interactions."
+},
+{
+"questionNumber": "3078",
+"question": "How do you create a custom date picker in Jetpack Compose?",
+"answer": "A custom date picker can be created using a combination of basic composables like Text and Button, along with state management to handle date selection and formatting."
+},
+{
+"questionNumber": "3079",
+"question": "What is the purpose of the Modifier.requiredSize in Jetpack Compose?",
+"answer": "Modifier.requiredSize is used to specify a fixed size for a composable. Unlike size, it will not allow the composable to be smaller than the specified dimensions."
+},
+{
+"questionNumber": "3080",
+"question": "How do you implement a custom color picker in Jetpack Compose?",
+"answer": "A custom color picker can be implemented using Sliders for hue, saturation, and value, along with a preview area that updates based on the selected color values."
+},
+{
+"questionNumber": "3081",
+"question": "What is the purpose of the Modifier.fillMaxWidth in Jetpack Compose?",
+"answer": "Modifier.fillMaxWidth is used to make a composable fill its parent's available width. It's equivalent to match_parent for width in the View system."
+},
+{
+"questionNumber": "3082",
+"question": "How do you create a custom rating bar in Jetpack Compose?",
+"answer": "A custom rating bar can be created using a Row of Icon composables, with their appearance changing based on the current rating value."
+},
+{
+"questionNumber": "3083",
+"question": "What is the purpose of the Modifier.fillMaxHeight in Jetpack Compose?",
+"answer": "Modifier.fillMaxHeight is used to make a composable fill its parent's available height. It's equivalent to match_parent for height in the View system."
+},
+{
+"questionNumber": "3084",
+"question": "How do you implement a custom chip in Jetpack Compose?",
+"answer": "A custom chip can be implemented using a Surface composable with custom shape, content, and click handling."
+},
+{
+"questionNumber": "3085",
+"question": "What is the purpose of the Modifier.wrapContentSize in Jetpack Compose?",
+"answer": "Modifier.wrapContentSize is used to make a composable wrap its content in both dimensions. It's equivalent to wrap_content in the View system."
+},
+{
+"questionNumber": "3086",
+"question": "How do you create a custom toggle switch in Jetpack Compose?",
+"answer": "A custom toggle switch can be created using the Switch composable and customizing its colors, sizes, and animations."
+},
+{
+"questionNumber": "3087",
+"question": "What is the purpose of the Modifier.background in Jetpack Compose?",
+"answer": "Modifier.background is used to set the background of a composable. You can specify a color, shape, or even a custom draw operation for the background."
+},
+{
+"questionNumber": "3088",
+"question": "How do you implement a custom tab layout in Jetpack Compose?",
+"answer": "A custom tab layout can be implemented using a Row of custom Tab composables, along with content that changes based on the selected tab."
+},
+{
+"questionNumber": "3089",
+"question": "What is the purpose of the Modifier.padding in Jetpack Compose?",
+"answer": "Modifier.padding is used to add space around a composable. You can specify padding for all sides or individual sides of the composable."
+},
+{
+"questionNumber": "3090",
+"question": "How do you create a custom carousel in Jetpack Compose?",
+"answer": "A custom carousel can be created using a HorizontalPager from the accompanist-pager library, or by implementing a custom LazyRow with snap scrolling behavior."
+},
+{
+"questionNumber": "3091",
+"question": "What is the purpose of the Modifier.size in Jetpack Compose?",
+"answer": "Modifier.size is used to set a specific size for a composable. You can specify both width and height, or use it with Dp.Unspecified to set only one dimension."
+},
+{
+"questionNumber": "3092",
+"question": "How do you implement a custom bottom navigation bar in Jetpack Compose?",
+"answer": "A custom bottom navigation bar can be implemented using a Row of custom navigation items, each with an icon and label, and handling selection state."
+},
+{
+"questionNumber": "3093",
+"question": "What is the purpose of the Modifier.fillMaxSize in Jetpack Compose?",
+"answer": "Modifier.fillMaxSize is used to make a composable fill its parent's available space in both width and height. It's equivalent to match_parent for both dimensions in the View system."
+},
+{
+"questionNumber": "3094",
+"question": "How do you create a custom slider in Jetpack Compose?",
+"answer": "A custom slider can be created by extending the Slider composable and customizing its appearance, or by implementing a completely custom slider using gestures and drawing on a Canvas."
+},
+{
+"questionNumber": "3095",
+"question": "What is the purpose of the Modifier.align in Jetpack Compose?",
+"answer": "Modifier.align is used to align a composable within its parent when the parent has extra space. It's typically used with Box layout."
+},
+{
+"questionNumber": "3096",
+"question": "How do you implement a custom expandable list in Jetpack Compose?",
+"answer": "A custom expandable list can be implemented using a LazyColumn with items that can toggle their expanded state, showing or hiding additional content."
+},
+{
+"questionNumber": "3097",
+"question": "What is the purpose of the Modifier.matchParentSize in Jetpack Compose?",
+"answer": "Modifier.matchParentSize is used to make a composable match the size of its parent. It's typically used within a Box to create overlays or backgrounds."
+},
+{
+"questionNumber": "3098",
+"question": "How do you create a custom calendar view in Jetpack Compose?",
+"answer": "A custom calendar view can be created using a Grid of Day composables, with state management to handle date selection and month navigation."
+},
+{
+"questionNumber": "3099",
+"question": "What is the purpose of the Modifier.weight in Jetpack Compose?",
+"answer": "Modifier.weight is used in Row and Column to distribute available space among children proportionally. It's similar to layout_weight in the View system."
+}
+]
