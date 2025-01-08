@@ -1,0 +1,502 @@
+[
+{
+"questionNumber": "3500",
+"question": "What is machine learning?",
+"answer": "Machine learning is a subset of artificial intelligence that focuses on the development of algorithms and statistical models that enable computer systems to improve their performance on a specific task through experience, without being explicitly programmed."
+},
+{
+"questionNumber": "3501",
+"question": "What are the main types of machine learning?",
+"answer": "The main types of machine learning are supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning."
+},
+{
+"questionNumber": "3502",
+"question": "What is supervised learning?",
+"answer": "Supervised learning is a type of machine learning where the algorithm learns from labeled training data to make predictions or decisions on new, unseen data."
+},
+{
+"questionNumber": "3503",
+"question": "What is unsupervised learning?",
+"answer": "Unsupervised learning is a type of machine learning where the algorithm learns patterns and structures from unlabeled data without explicit guidance."
+},
+{
+"questionNumber": "3504",
+"question": "What is semi-supervised learning?",
+"answer": "Semi-supervised learning is a machine learning approach that combines a small amount of labeled data with a large amount of unlabeled data during training."
+},
+{
+"questionNumber": "3505",
+"question": "What is reinforcement learning?",
+"answer": "Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment and receiving rewards or penalties for its actions."
+},
+{
+"questionNumber": "3506",
+"question": "What is the difference between classification and regression?",
+"answer": "Classification is used to predict discrete class labels or categories, while regression is used to predict continuous numerical values."
+},
+{
+"questionNumber": "3507",
+"question": "What is overfitting in machine learning?",
+"answer": "Overfitting occurs when a model learns the training data too well, including noise and outliers, resulting in poor generalization to new, unseen data."
+},
+{
+"questionNumber": "3508",
+"question": "What is underfitting in machine learning?",
+"answer": "Underfitting occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both training and test data."
+},
+{
+"questionNumber": "3509",
+"question": "What is the bias-variance tradeoff?",
+"answer": "The bias-variance tradeoff is the balance between a model's ability to fit the training data (low bias) and its ability to generalize to new data (low variance)."
+},
+{
+"questionNumber": "3510",
+"question": "What is cross-validation?",
+"answer": "Cross-validation is a technique used to assess a model's performance and generalization ability by partitioning the data into subsets for training and testing multiple times."
+},
+{
+"questionNumber": "3511",
+"question": "What is the purpose of feature scaling?",
+"answer": "Feature scaling is used to normalize the range of independent variables or features, ensuring that all features contribute equally to the model's performance and preventing some features from dominating others."
+},
+{
+"questionNumber": "3512",
+"question": "What is the difference between L1 and L2 regularization?",
+"answer": "L1 regularization (Lasso) adds the absolute value of coefficients as a penalty term, promoting sparsity, while L2 regularization (Ridge) adds the squared value of coefficients, preventing any single feature from having a large impact."
+},
+{
+"questionNumber": "3513",
+"question": "What is the curse of dimensionality?",
+"answer": "The curse of dimensionality refers to various phenomena that arise when analyzing data in high-dimensional spaces, often leading to the need for exponentially more data points to maintain statistical significance."
+},
+{
+"questionNumber": "3514",
+"question": "What is ensemble learning?",
+"answer": "Ensemble learning is a technique that combines multiple machine learning models to create a more powerful and accurate predictive model."
+},
+{
+"questionNumber": "3515",
+"question": "What is bagging in machine learning?",
+"answer": "Bagging (Bootstrap Aggregating) is an ensemble method that creates multiple subsets of the training data, trains a model on each subset, and combines their predictions to reduce variance and overfitting."
+},
+{
+"questionNumber": "3516",
+"question": "What is boosting in machine learning?",
+"answer": "Boosting is an ensemble method that combines weak learners sequentially, with each new model focusing on the mistakes of the previous ones, to create a strong learner."
+},
+{
+"questionNumber": "3517",
+"question": "What is the difference between a parametric and non-parametric model?",
+"answer": "Parametric models have a fixed number of parameters regardless of the amount of training data, while non-parametric models can increase the number of parameters as the amount of training data grows."
+},
+{
+"questionNumber": "3518",
+"question": "What is the purpose of the activation function in neural networks?",
+"answer": "Activation functions introduce non-linearity into neural networks, allowing them to learn complex patterns and relationships in the data."
+},
+{
+"questionNumber": "3519",
+"question": "What is backpropagation in neural networks?",
+"answer": "Backpropagation is an algorithm used to train neural networks by calculating the gradient of the loss function with respect to the network's weights and adjusting them to minimize the error."
+},
+{
+"questionNumber": "3520",
+"question": "What is the difference between a shallow neural network and a deep neural network?",
+"answer": "A shallow neural network typically has one or two hidden layers, while a deep neural network has multiple hidden layers, allowing it to learn more complex representations of the data."
+},
+{
+"questionNumber": "3521",
+"question": "What is the vanishing gradient problem in deep learning?",
+"answer": "The vanishing gradient problem occurs when the gradients become extremely small as they propagate backwards through the network, making it difficult for earlier layers to learn effectively."
+},
+{
+"questionNumber": "3522",
+"question": "What is the exploding gradient problem in deep learning?",
+"answer": "The exploding gradient problem occurs when the gradients become extremely large as they propagate backwards through the network, causing instability in the training process."
+},
+{
+"questionNumber": "3523",
+"question": "What is transfer learning?",
+"answer": "Transfer learning is a technique where a model trained on one task is repurposed or fine-tuned for a different but related task, leveraging the knowledge gained from the original task."
+},
+{
+"questionNumber": "3524",
+"question": "What is the difference between batch gradient descent and stochastic gradient descent?",
+"answer": "Batch gradient descent uses the entire dataset to compute gradients and update weights, while stochastic gradient descent uses a single random sample from the dataset for each update."
+},
+{
+"questionNumber": "3525",
+"question": "What is mini-batch gradient descent?",
+"answer": "Mini-batch gradient descent is a compromise between batch and stochastic gradient descent, using a small random subset of the data to compute gradients and update weights."
+},
+{
+"questionNumber": "3526",
+"question": "What is the purpose of dropout in neural networks?",
+"answer": "Dropout is a regularization technique that randomly sets a fraction of neurons to zero during training, helping to prevent overfitting and improve generalization."
+},
+{
+"questionNumber": "3527",
+"question": "What is the difference between a generative and discriminative model?",
+"answer": "Generative models learn the joint probability distribution of inputs and outputs, while discriminative models learn the conditional probability distribution of outputs given inputs."
+},
+{
+"questionNumber": "3528",
+"question": "What is a convolutional neural network (CNN)?",
+"answer": "A convolutional neural network is a type of deep learning model designed to process grid-like data, such as images, by using convolutional layers to automatically learn hierarchical features."
+},
+{
+"questionNumber": "3529",
+"question": "What is a recurrent neural network (RNN)?",
+"answer": "A recurrent neural network is a type of neural network designed to process sequential data by maintaining an internal state or memory, allowing it to capture temporal dependencies."
+},
+{
+"questionNumber": "3530",
+"question": "What is long short-term memory (LSTM)?",
+"answer": "Long short-term memory is a type of recurrent neural network architecture designed to address the vanishing gradient problem and capture long-term dependencies in sequential data."
+},
+{
+"questionNumber": "3531",
+"question": "What is the purpose of batch normalization?",
+"answer": "Batch normalization is a technique used to normalize the inputs of each layer in a neural network, helping to stabilize the learning process and reduce internal covariate shift."
+},
+{
+"questionNumber": "3532",
+"question": "What is the difference between a multilayer perceptron (MLP) and a convolutional neural network (CNN)?",
+"answer": "An MLP is a fully connected feedforward neural network, while a CNN uses convolutional layers to exploit spatial relationships in data, making it more suitable for tasks like image processing."
+},
+{
+"questionNumber": "3533",
+"question": "What is the purpose of max pooling in convolutional neural networks?",
+"answer": "Max pooling is used to reduce the spatial dimensions of the feature maps, providing translation invariance and reducing the number of parameters in the network."
+},
+{
+"questionNumber": "3534",
+"question": "What is the difference between a decision tree and a random forest?",
+"answer": "A decision tree is a single model that makes decisions based on a series of questions, while a random forest is an ensemble of multiple decision trees combined to make more accurate predictions."
+},
+{
+"questionNumber": "3535",
+"question": "What is the purpose of pruning in decision trees?",
+"answer": "Pruning is used to reduce the complexity of decision trees by removing branches that do not significantly contribute to the model's performance, helping to prevent overfitting."
+},
+{
+"questionNumber": "3536",
+"question": "What is the difference between hard and soft margin SVM?",
+"answer": "Hard margin SVM assumes the data is linearly separable and finds the maximum margin hyperplane, while soft margin SVM allows for some misclassifications to handle non-linearly separable data."
+},
+{
+"questionNumber": "3537",
+"question": "What is the kernel trick in SVM?",
+"answer": "The kernel trick is a method used in SVM to implicitly map the input data to a higher-dimensional space without explicitly computing the coordinates in that space, allowing for non-linear classification."
+},
+{
+"questionNumber": "3538",
+"question": "What is the difference between k-means and hierarchical clustering?",
+"answer": "K-means clustering partitions data into k clusters based on centroids, while hierarchical clustering creates a tree-like structure of nested clusters without specifying the number of clusters in advance."
+},
+{
+"questionNumber": "3539",
+"question": "What is the elbow method in k-means clustering?",
+"answer": "The elbow method is a technique used to determine the optimal number of clusters in k-means by plotting the within-cluster sum of squares against the number of clusters and looking for an 'elbow' in the curve."
+},
+{
+"questionNumber": "3540",
+"question": "What is principal component analysis (PCA)?",
+"answer": "Principal component analysis is a dimensionality reduction technique that transforms the data into a new coordinate system where the axes (principal components) represent the directions of maximum variance in the data."
+},
+{
+"questionNumber": "3541",
+"question": "What is the difference between PCA and t-SNE?",
+"answer": "PCA is a linear dimensionality reduction technique that preserves global structure, while t-SNE is a non-linear technique that focuses on preserving local structure and is often better for visualization."
+},
+{
+"questionNumber": "3542",
+"question": "What is the purpose of feature selection in machine learning?",
+"answer": "Feature selection is used to identify and select the most relevant features for a given task, reducing dimensionality, improving model performance, and reducing overfitting."
+},
+{
+"questionNumber": "3543",
+"question": "What is the difference between filter, wrapper, and embedded methods of feature selection?",
+"answer": "Filter methods select features based on statistical measures, wrapper methods use the model's performance to select features, and embedded methods perform feature selection as part of the model training process."
+},
+{
+"questionNumber": "3544",
+"question": "What is the purpose of cross-entropy loss in classification problems?",
+"answer": "Cross-entropy loss measures the dissimilarity between the predicted probability distribution and the true distribution, providing a way to optimize classification models."
+},
+{
+"questionNumber": "3545",
+"question": "What is the difference between L1 and L2 loss functions?",
+"answer": "L1 loss (mean absolute error) is less sensitive to outliers but can be unstable, while L2 loss (mean squared error) is more sensitive to outliers but provides a stable solution."
+},
+{
+"questionNumber": "3546",
+"question": "What is the purpose of the learning rate in gradient descent?",
+"answer": "The learning rate determines the step size at each iteration of gradient descent, controlling how quickly or slowly the model learns from the data."
+},
+{
+"questionNumber": "3547",
+"question": "What is the difference between a parametric and non-parametric model?",
+"answer": "Parametric models have a fixed number of parameters regardless of the amount of training data, while non-parametric models can increase the number of parameters as the amount of training data grows."
+},
+{
+"questionNumber": "3548",
+"question": "What is the purpose of the activation function in neural networks?",
+"answer": "Activation functions introduce non-linearity into neural networks, allowing them to learn complex patterns and relationships in the data."
+},
+{
+"questionNumber": "3549",
+"question": "What is backpropagation in neural networks?",
+"answer": "Backpropagation is an algorithm used to train neural networks by calculating the gradient of the loss function with respect to the network's weights and adjusting them to minimize the error."
+},
+{
+"questionNumber": "3550",
+"question": "What is the difference between a shallow neural network and a deep neural network?",
+"answer": "A shallow neural network typically has one or two hidden layers, while a deep neural network has multiple hidden layers, allowing it to learn more complex representations of the data."
+},
+{
+"questionNumber": "3551",
+"question": "What is the vanishing gradient problem in deep learning?",
+"answer": "The vanishing gradient problem occurs when the gradients become extremely small as they propagate backwards through the network, making it difficult for earlier layers to learn effectively."
+},
+{
+"questionNumber": "3552",
+"question": "What is the exploding gradient problem in deep learning?",
+"answer": "The exploding gradient problem occurs when the gradients become extremely large as they propagate backwards through the network, causing instability in the training process."
+},
+{
+"questionNumber": "3553",
+"question": "What is transfer learning?",
+"answer": "Transfer learning is a technique where a model trained on one task is repurposed or fine-tuned for a different but related task, leveraging the knowledge gained from the original task."
+},
+{
+"questionNumber": "3554",
+"question": "What is the difference between batch gradient descent and stochastic gradient descent?",
+"answer": "Batch gradient descent uses the entire dataset to compute gradients and update weights, while stochastic gradient descent uses a single random sample from the dataset for each update."
+},
+{
+"questionNumber": "3555",
+"question": "What is mini-batch gradient descent?",
+"answer": "Mini-batch gradient descent is a compromise between batch and stochastic gradient descent, using a small random subset of the data to compute gradients and update weights."
+},
+{
+"questionNumber": "3556",
+"question": "What is the purpose of dropout in neural networks?",
+"answer": "Dropout is a regularization technique that randomly sets a fraction of neurons to zero during training, helping to prevent overfitting and improve generalization."
+},
+{
+"questionNumber": "3557",
+"question": "What is the difference between a generative and discriminative model?",
+"answer": "Generative models learn the joint probability distribution of inputs and outputs, while discriminative models learn the conditional probability distribution of outputs given inputs."
+},
+{
+"questionNumber": "3558",
+"question": "What is a Gaussian process?",
+"answer": "A Gaussian process is a probabilistic model that defines a distribution over functions and can be used for regression and classification tasks."
+},
+{
+"questionNumber": "3559",
+"question": "What is the difference between parametric and non-parametric models?",
+"answer": "Parametric models have a fixed number of parameters, while non-parametric models can grow in complexity with the amount of training data."
+},
+{
+"questionNumber": "3560",
+"question": "What is the purpose of regularization in machine learning?",
+"answer": "Regularization is used to prevent overfitting by adding a penalty term to the loss function, discouraging complex models and promoting simpler ones."
+},
+{
+"questionNumber": "3561",
+"question": "What is the difference between L1 and L2 regularization?",
+"answer": "L1 regularization (Lasso) adds the absolute value of weights as a penalty, promoting sparsity, while L2 regularization (Ridge) adds the squared value of weights, preventing any single feature from having a large impact."
+},
+{
+"questionNumber": "3562",
+"question": "What is the purpose of early stopping in machine learning?",
+"answer": "Early stopping is a regularization technique that stops training when the model's performance on a validation set starts to degrade, helping to prevent overfitting."
+},
+{
+"questionNumber": "3563",
+"question": "What is the difference between bagging and boosting?",
+"answer": "Bagging trains multiple models in parallel on different subsets of the data and combines their predictions, while boosting trains models sequentially, with each new model focusing on the mistakes of the previous ones."
+},
+{
+"questionNumber": "3564",
+"question": "What is the purpose of the bias term in linear models?",
+"answer": "The bias term allows the model to fit data that doesn't pass through the origin, providing an additional degree of freedom to better fit the data."
+},
+{
+"questionNumber": "3565",
+"question": "What is the difference between a perceptron and logistic regression?",
+"answer": "A perceptron uses a step function as its activation, producing binary outputs, while logistic regression uses a sigmoid function, producing probability estimates."
+},
+{
+"questionNumber": "3566",
+"question": "What is the purpose of the softmax function in neural networks?",
+"answer": "The softmax function is used in the output layer of multi-class classification problems to convert raw scores into probabilities that sum to one."
+},
+{
+"questionNumber": "3567",
+"question": "What is the difference between a feedforward neural network and a recurrent neural network?",
+"answer": "Feedforward neural networks process inputs in one direction, while recurrent neural networks have connections that form cycles, allowing them to maintain internal state and process sequential data."
+},
+{
+"questionNumber": "3568",
+"question": "What is the purpose of skip connections in neural networks?",
+"answer": "Skip connections, also known as residual connections, allow information to bypass one or more layers, helping to mitigate the vanishing gradient problem and enabling the training of very deep networks."
+},
+{
+"questionNumber": "3569",
+"question": "What is the difference between a Boltzmann machine and a restricted Boltzmann machine?",
+"answer": "A Boltzmann machine allows connections between all nodes, while a restricted Boltzmann machine only allows connections between visible and hidden nodes, not within the same layer."
+},
+{
+"questionNumber": "3570",
+"question": "What is the purpose of the attention mechanism in neural networks?",
+"answer": "The attention mechanism allows the model to focus on different parts of the input when producing each part of the output, improving performance on tasks like machine translation and image captioning."
+},
+{
+"questionNumber": "3571",
+"question": "What is the difference between supervised and unsupervised dimensionality reduction?",
+"answer": "Supervised dimensionality reduction uses class labels to guide the reduction process, while unsupervised dimensionality reduction relies solely on the structure of the data."
+},
+{
+"questionNumber": "3572",
+"question": "What is the purpose of the epsilon parameter in epsilon-greedy exploration?",
+"answer": "The epsilon parameter controls the trade-off between exploration and exploitation in reinforcement learning, determining the probability of taking a random action instead of the currently believed best action."
+},
+{
+"questionNumber": "3573",
+"question": "What is the difference between on-policy and off-policy learning in reinforcement learning?",
+"answer": "On-policy learning updates the policy being used to make decisions, while off-policy learning can update a different policy from the one being used to generate experiences."
+},
+{
+"questionNumber": "3574",
+"question": "What is the purpose of the replay buffer in deep reinforcement learning?",
+"answer": "The replay buffer stores past experiences, allowing the agent to learn from them multiple times and breaking the correlation between consecutive samples, which improves learning stability."
+},
+{
+"questionNumber": "3575",
+"question": "What is the difference between model-based and model-free reinforcement learning?",
+"answer": "Model-based reinforcement learning learns a model of the environment to plan actions, while model-free reinforcement learning learns directly from experience without explicitly modeling the environment."
+},
+{
+"questionNumber": "3576",
+"question": "What is the purpose of the discount factor in reinforcement learning?",
+"answer": "The discount factor determines the importance of future rewards, with a lower value focusing on immediate rewards and a higher value considering long-term consequences."
+},
+{
+"questionNumber": "3577",
+"question": "What is the difference between policy gradient methods and value-based methods in reinforcement learning?",
+"answer": "Policy gradient methods directly optimize the policy, while value-based methods learn a value function and derive a policy from it."
+},
+{
+"questionNumber": "3578",
+"question": "What is the purpose of the actor-critic architecture in reinforcement learning?",
+"answer": "The actor-critic architecture combines policy-based and value-based methods, using an actor to select actions and a critic to evaluate those actions, potentially leading to more stable and efficient learning."
+},
+{
+"questionNumber": "3579",
+"question": "What is the difference between a generative adversarial network (GAN) and a variational autoencoder (VAE)?",
+"answer": "GANs use a generator and discriminator in an adversarial setup to produce realistic samples, while VAEs use an encoder-decoder architecture with a probabilistic latent space to generate samples and perform inference."
+},
+{
+"questionNumber": "3580",
+"question": "What is the purpose of the discriminator in a GAN?",
+"answer": "The discriminator in a GAN tries to distinguish between real and generated samples, providing feedback to the generator to improve its output."
+},
+{
+"questionNumber": "3581",
+"question": "What is the difference between a conditional GAN and an unconditional GAN?",
+"answer": "A conditional GAN generates samples conditioned on additional information (e.g., class labels), while an unconditional GAN generates samples without any specific conditioning."
+},
+{
+"questionNumber": "3582",
+"question": "What is the purpose of the KL divergence term in a variational autoencoder?",
+"answer": "The KL divergence term in a VAE encourages the learned latent distribution to be close to a prior distribution (usually a standard normal), promoting a well-behaved and meaningful latent space."
+},
+{
+"questionNumber": "3583",
+"question": "What is the difference between a autoencoder and a variational autoencoder?",
+"answer": "An autoencoder learns a deterministic encoding and decoding of the data, while a variational autoencoder learns a probabilistic encoding, allowing for generation of new samples and better generalization."
+},
+{
+"questionNumber": "3584",
+"question": "What is the purpose of the reparameterization trick in variational autoencoders?",
+"answer": "The reparameterization trick allows for backpropagation through the sampling process in VAEs by expressing the random sampling as a deterministic function of the parameters and an external source of randomness."
+},
+{
+"questionNumber": "3585",
+"question": "What is the difference between a denoising autoencoder and a regular autoencoder?",
+"answer": "A denoising autoencoder is trained to reconstruct clean inputs from corrupted versions, while a regular autoencoder simply tries to reconstruct its inputs, potentially learning a more robust representation."
+},
+{
+"questionNumber": "3586",
+"question": "What is the purpose of the bottleneck layer in an autoencoder?",
+"answer": "The bottleneck layer in an autoencoder forces the network to learn a compressed representation of the input data, often used for dimensionality reduction or feature learning."
+},
+{
+"questionNumber": "3587",
+"question": "What is the difference between a sparse autoencoder and a regular autoencoder?",
+"answer": "A sparse autoencoder includes a sparsity constraint on the hidden layer activations, encouraging the network to learn more efficient and potentially more interpretable representations."
+},
+{
+"questionNumber": "3588",
+"question": "What is the purpose of the contrastive loss in siamese networks?",
+"answer": "Contrastive loss encourages similar inputs to have similar representations and dissimilar inputs to have different representations, useful for tasks like face recognition or signature verification."
+},
+{
+"questionNumber": "3589",
+"question": "What is the difference between a siamese network and a triplet network?",
+"answer": "A siamese network compares pairs of inputs, while a triplet network compares triplets (anchor, positive, and negative examples), potentially providing more informative gradients."
+},
+{
+"questionNumber": "3590",
+"question": "What is the purpose of the margin in triplet loss?",
+"answer": "The margin in triplet loss defines the minimum desired difference between the distances of the anchor to the positive and negative examples, encouraging a clear separation between similar and dissimilar inputs."
+},
+{
+"questionNumber": "3591",
+"question": "What is the difference between hard negative mining and soft negative mining?",
+"answer": "Hard negative mining selects the most difficult negative examples for training, while soft negative mining uses all negatives but weights them based on their difficulty, potentially leading to more stable training."
+},
+{
+"questionNumber": "3592",
+"question": "What is the purpose of the anchor boxes in object detection algorithms like YOLO or SSD?",
+"answer": "Anchor boxes are predefined bounding box shapes that serve as references for the network to predict object locations, helping to handle objects of various sizes and aspect ratios."
+},
+{
+"questionNumber": "3593",
+"question": "What is the difference between one-stage and two-stage object detection algorithms?",
+"answer": "One-stage detectors (e.g., YOLO, SSD) predict bounding boxes and class probabilities in a single forward pass, while two-stage detectors (e.g., R-CNN family) first propose regions of interest and then classify them."
+},
+{
+"questionNumber": "3594",
+"question": "What is the purpose of non-maximum suppression in object detection?",
+"answer": "Non-maximum suppression removes redundant and overlapping bounding box predictions, keeping only the most confident detections for each object."
+},
+{
+"questionNumber": "3595",
+"question": "What is the difference between semantic segmentation and instance segmentation?",
+"answer": "Semantic segmentation assigns a class label to each pixel in an image, while instance segmentation also distinguishes between different instances of the same class."
+},
+{
+"questionNumber": "3596",
+"question": "What is the purpose of the skip connections in U-Net architecture?",
+"answer": "Skip connections in U-Net allow high-resolution features from the encoder path to be combined with upsampled features in the decoder path, preserving fine-grained spatial information."
+},
+{
+"questionNumber": "3597",
+"question": "What is the difference between a fully convolutional network (FCN) and a regular CNN for image classification?",
+"answer": "An FCN replaces the fully connected layers of a regular CNN with convolutional layers, allowing it to process images of arbitrary size and produce dense predictions for tasks like semantic segmentation."
+},
+{
+"questionNumber": "3598",
+"question": "What is the purpose of dilated (atrous) convolutions in semantic segmentation?",
+"answer": "Dilated convolutions increase the receptive field without increasing the number of parameters or reducing spatial resolution, allowing the network to capture multi-scale context information."
+},
+{
+"questionNumber": "3599",
+"question": "What is the difference between a region proposal network (RPN) and a region-based CNN (R-CNN)?",
+"answer": "An RPN generates object proposals in an end-to-end trainable manner, while R-CNN uses external region proposal methods like selective search, with RPN being more efficient and integrated into the overall detection pipeline."
+}
+]
