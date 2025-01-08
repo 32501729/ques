@@ -1,0 +1,502 @@
+[
+{
+"questionNumber": "5000",
+"question": "What is React Native?",
+"answer": "React Native is an open-source mobile application development framework created by Facebook. It allows developers to use React along with native platform capabilities to build mobile applications for iOS and Android."
+},
+{
+"questionNumber": "5001",
+"question": "How does React Native differ from React?",
+"answer": "While React is used for building web applications, React Native is used for building mobile applications. React Native uses native components instead of web components as building blocks."
+},
+{
+"questionNumber": "5002",
+"question": "What are the advantages of using React Native?",
+"answer": "Advantages include cross-platform development, reusable code, faster development time, hot reloading, and access to native features and modules."
+},
+{
+"questionNumber": "5003",
+"question": "What is JSX in React Native?",
+"answer": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files. In React Native, JSX is used to describe what the UI should look like."
+},
+{
+"questionNumber": "5004",
+"question": "What is the purpose of the 'App.js' file in a React Native project?",
+"answer": "The 'App.js' file is the entry point of a React Native application. It typically contains the root component and any necessary setup for the app."
+},
+{
+"questionNumber": "5005",
+"question": "How do you create a new React Native project?",
+"answer": "You can create a new React Native project using the command 'npx react-native init ProjectName' or by using Expo CLI with 'expo init ProjectName'."
+},
+{
+"questionNumber": "5006",
+"question": "What is the difference between 'useState' and 'useEffect' hooks in React Native?",
+"answer": "'useState' is used for managing state within a component, while 'useEffect' is used for handling side effects and lifecycle events in functional components."
+},
+{
+"questionNumber": "5007",
+"question": "How do you handle navigation in React Native?",
+"answer": "Navigation in React Native is typically handled using libraries like React Navigation or React Native Navigation, which provide components and APIs for implementing various navigation patterns."
+},
+{
+"questionNumber": "5008",
+"question": "What is the purpose of the 'StyleSheet' API in React Native?",
+"answer": "The 'StyleSheet' API is used to define styles for React Native components. It provides an abstraction layer similar to CSS stylesheets and helps optimize the app's performance."
+},
+{
+"questionNumber": "5009",
+"question": "How do you handle platform-specific code in React Native?",
+"answer": "Platform-specific code can be handled using the 'Platform' module, platform-specific file extensions (e.g., '.ios.js' or '.android.js'), or conditional rendering based on the platform."
+},
+{
+"questionNumber": "5010",
+"question": "What is the purpose of the 'metro' bundler in React Native?",
+"answer": "Metro is the JavaScript bundler used by React Native. It takes in an entry file and various source files, then returns a single JavaScript file that includes all the code and its dependencies."
+},
+{
+"questionNumber": "5011",
+"question": "How do you debug a React Native application?",
+"answer": "React Native apps can be debugged using tools like React Native Debugger, Chrome Developer Tools, and the built-in debugger in IDEs like Visual Studio Code."
+},
+{
+"questionNumber": "5012",
+"question": "What is the purpose of the 'expo' framework in React Native development?",
+"answer": "Expo is a framework and platform for universal React applications. It provides a set of tools and services built around React Native to help you develop, build, deploy, and quickly iterate on iOS, Android, and web apps."
+},
+{
+"questionNumber": "5013",
+"question": "How do you handle state management in large React Native applications?",
+"answer": "For large React Native applications, state management can be handled using libraries like Redux, MobX, or React Context API, which provide centralized state management solutions."
+},
+{
+"questionNumber": "5014",
+"question": "What is the purpose of the 'FlatList' component in React Native?",
+"answer": "The 'FlatList' component is used for rendering large lists of data efficiently. It implements virtualization to render only the items currently visible on the screen, improving performance."
+},
+{
+"questionNumber": "5015",
+"question": "How do you handle animations in React Native?",
+"answer": "Animations in React Native can be handled using the Animated API, which provides a way to create smooth animations and gestures, or by using third-party libraries like Lottie."
+},
+{
+"questionNumber": "5016",
+"question": "What is the purpose of the 'AsyncStorage' API in React Native?",
+"answer": "'AsyncStorage' is an asynchronous, unencrypted, persistent, key-value storage system for React Native. It's commonly used for storing small amounts of data locally on the device."
+},
+{
+"questionNumber": "5017",
+"question": "How do you handle form inputs in React Native?",
+"answer": "Form inputs in React Native are typically handled using controlled components, where the component's state is used to store and update the input values."
+},
+{
+"questionNumber": "5018",
+"question": "What is the purpose of the 'TouchableOpacity' component in React Native?",
+"answer": "'TouchableOpacity' is a wrapper component that makes its children respond properly to touches. When pressed, the opacity of the wrapped view is decreased, providing visual feedback to the user."
+},
+{
+"questionNumber": "5019",
+"question": "How do you handle HTTP requests in React Native?",
+"answer": "HTTP requests in React Native can be handled using the built-in 'fetch' API or third-party libraries like Axios. These allow you to make GET, POST, PUT, DELETE, and other types of requests to APIs."
+},
+{
+"questionNumber": "5020",
+"question": "What is the purpose of the 'SafeAreaView' component in React Native?",
+"answer": "The 'SafeAreaView' component is used to render content within the safe area boundaries of a device. It automatically applies padding to reflect the portion of the view that is not covered by navigation bars, tab bars, toolbars, and other ancestor views."
+},
+{
+"questionNumber": "5021",
+"question": "How do you handle device permissions in React Native?",
+"answer": "Device permissions in React Native can be handled using the 'react-native-permissions' library or platform-specific APIs. These allow you to request and check the status of permissions like camera, location, and microphone access."
+},
+{
+"questionNumber": "5022",
+"question": "What is the purpose of the 'KeyboardAvoidingView' component in React Native?",
+"answer": "The 'KeyboardAvoidingView' component is used to automatically adjust its height, position, or bottom padding based on the keyboard height to remain visible when the keyboard appears."
+},
+{
+"questionNumber": "5023",
+"question": "How do you implement push notifications in a React Native app?",
+"answer": "Push notifications can be implemented using services like Firebase Cloud Messaging (FCM) or OneSignal, along with libraries like 'react-native-push-notification' to handle the notification logic in the app."
+},
+{
+"questionNumber": "5024",
+"question": "What is the purpose of the 'Linking' API in React Native?",
+"answer": "The 'Linking' API provides a general interface for interacting with both incoming and outgoing app links. It can be used to open URLs and deep link into your app."
+},
+{
+"questionNumber": "5025",
+"question": "How do you handle offline capabilities in a React Native app?",
+"answer": "Offline capabilities can be implemented using libraries like Redux Persist for state persistence, AsyncStorage for local data storage, and strategies like optimistic UI updates and background sync."
+},
+{
+"questionNumber": "5026",
+"question": "What is the purpose of the 'Text' component in React Native?",
+"answer": "The 'Text' component is used to display text in React Native applications. It supports nesting, styling, and touch handling."
+},
+{
+"questionNumber": "5027",
+"question": "How do you handle internationalization (i18n) in React Native?",
+"answer": "Internationalization in React Native can be handled using libraries like 'react-native-localize' and 'i18n-js', which provide tools for translating text and handling locale-specific formatting."
+},
+{
+"questionNumber": "5028",
+"question": "What is the purpose of the 'Image' component in React Native?",
+"answer": "The 'Image' component is used to display different types of images in React Native, including static resources, network images, and temporary local images."
+},
+{
+"questionNumber": "5029",
+"question": "How do you implement infinite scrolling in a React Native FlatList?",
+"answer": "Infinite scrolling can be implemented in a FlatList by using the 'onEndReached' prop to detect when the user has scrolled near the end of the list, and then loading more data."
+},
+{
+"questionNumber": "5030",
+"question": "What is the purpose of the 'Modal' component in React Native?",
+"answer": "The 'Modal' component is used to present content above an enclosing view. It's commonly used for dialogs, pop-ups, and other overlays that require user interaction."
+},
+{
+"questionNumber": "5031",
+"question": "How do you handle deep linking in React Native?",
+"answer": "Deep linking in React Native can be handled using the Linking API and configuring the app to respond to specific URL schemes or universal links."
+},
+{
+"questionNumber": "5032",
+"question": "What is the purpose of the 'SectionList' component in React Native?",
+"answer": "The 'SectionList' component is used to render a list of items grouped into sections with headers. It's similar to FlatList but with the added ability to render sectioned data."
+},
+{
+"questionNumber": "5033",
+"question": "How do you handle file uploads in React Native?",
+"answer": "File uploads in React Native can be handled using libraries like 'react-native-image-picker' for selecting files and 'react-native-fetch-blob' for uploading them to a server."
+},
+{
+"questionNumber": "5034",
+"question": "What is the purpose of the 'Dimensions' API in React Native?",
+"answer": "The 'Dimensions' API is used to get the dimensions of the device's window and screen. It's useful for creating responsive layouts and adjusting UI elements based on the device's size."
+},
+{
+"questionNumber": "5035",
+"question": "How do you implement custom fonts in a React Native app?",
+"answer": "Custom fonts can be implemented by adding the font files to the project, linking them using 'react-native link' or manually, and then using the font family name in your styles."
+},
+{
+"questionNumber": "5036",
+"question": "What is the purpose of the 'ActivityIndicator' component in React Native?",
+"answer": "The 'ActivityIndicator' component is used to display a circular loading indicator. It's commonly used to show that an operation is in progress."
+},
+{
+"questionNumber": "5037",
+"question": "How do you handle gestures in React Native?",
+"answer": "Gestures in React Native can be handled using the PanResponder API or libraries like 'react-native-gesture-handler', which provide more advanced gesture recognition capabilities."
+},
+{
+"questionNumber": "5038",
+"question": "What is the purpose of the 'NetInfo' API in React Native?",
+"answer": "The 'NetInfo' API is used to get information about the device's internet connectivity. It can be used to determine if the device is connected to the internet and what type of connection it has."
+},
+{
+"questionNumber": "5039",
+"question": "How do you implement pull-to-refresh functionality in React Native?",
+"answer": "Pull-to-refresh can be implemented using the 'RefreshControl' component in combination with ScrollView or FlatList, setting up the 'onRefresh' callback and 'refreshing' state."
+},
+{
+"questionNumber": "5040",
+"question": "What is the purpose of the 'BackHandler' API in React Native?",
+"answer": "The 'BackHandler' API is used to detect hardware back button presses on Android devices and customize the app's behavior in response to these events."
+},
+{
+"questionNumber": "5041",
+"question": "How do you handle app state changes in React Native?",
+"answer": "App state changes can be handled using the 'AppState' API, which allows you to determine if the app is in the foreground, background, or inactive state."
+},
+{
+"questionNumber": "5042",
+"question": "What is the purpose of the 'StatusBar' component in React Native?",
+"answer": "The 'StatusBar' component is used to control the app's status bar. It allows you to change the status bar style, hide it, or customize its appearance."
+},
+{
+"questionNumber": "5043",
+"question": "How do you implement a custom splash screen in React Native?",
+"answer": "A custom splash screen can be implemented by modifying the native iOS and Android project files, and using libraries like 'react-native-splash-screen' to control when the splash screen is hidden."
+},
+{
+"questionNumber": "5044",
+"question": "What is the purpose of the 'Clipboard' API in React Native?",
+"answer": "The 'Clipboard' API is used to get and set content to the user's clipboard. It allows you to implement copy and paste functionality in your app."
+},
+{
+"questionNumber": "5045",
+"question": "How do you handle keyboard events in React Native?",
+"answer": "Keyboard events can be handled using the 'Keyboard' API, which provides methods to listen for keyboard events and adjust your UI accordingly."
+},
+{
+"questionNumber": "5046",
+"question": "What is the purpose of the 'Alert' API in React Native?",
+"answer": "The 'Alert' API is used to display alert dialogs to the user. It can be used to show messages, ask for confirmation, or prompt the user for input."
+},
+{
+"questionNumber": "5047",
+"question": "How do you implement custom native modules in React Native?",
+"answer": "Custom native modules can be implemented by writing native code (in Java/Kotlin for Android or Objective-C/Swift for iOS) and bridging it to JavaScript using the React Native bridge."
+},
+{
+"questionNumber": "5048",
+"question": "What is the purpose of the 'PixelRatio' API in React Native?",
+"answer": "The 'PixelRatio' API is used to get the device pixel density. It's useful for adjusting layout and image sizes based on the device's screen resolution."
+},
+{
+"questionNumber": "5049",
+"question": "How do you handle memory leaks in React Native?",
+"answer": "Memory leaks in React Native can be handled by properly cleaning up resources, unsubscribing from event listeners, and using tools like the React DevTools and Xcode Instruments to identify and fix leaks."
+},
+{
+"questionNumber": "5050",
+"question": "What is the purpose of the 'InteractionManager' API in React Native?",
+"answer": "The 'InteractionManager' API is used to defer long-running tasks until after animations and interactions have completed. It helps ensure smooth animations and responsive user interfaces by scheduling tasks to run after interactions are complete."
+},
+{
+"questionNumber": "5051",
+"question": "How do you implement code splitting in React Native?",
+"answer": "Code splitting in React Native can be implemented using dynamic imports and the 'react-native-dynamic-bundle' library, which allows you to load components and modules on-demand."
+},
+{
+"questionNumber": "5052",
+"question": "What is the purpose of the 'PanResponder' API in React Native?",
+"answer": "The 'PanResponder' API is used to recognize multi-touch gestures and provide a fluid user experience. It allows you to build complex gesture-based interactions in your app."
+},
+{
+"questionNumber": "5053",
+"question": "How do you implement biometric authentication in React Native?",
+"answer": "Biometric authentication can be implemented using libraries like 'react-native-touch-id' or 'react-native-fingerprint-scanner', which provide APIs to interact with the device's biometric sensors."
+},
+{
+"questionNumber": "5054",
+"question": "What is the purpose of the 'Appearance' API in React Native?",
+"answer": "The 'Appearance' API is used to detect the user's preferred color scheme (light or dark mode) and adapt your app's UI accordingly."
+},
+{
+"questionNumber": "5055",
+"question": "How do you implement background tasks in React Native?",
+"answer": "Background tasks can be implemented using libraries like 'react-native-background-fetch' for iOS and 'react-native-background-job' for Android, which allow you to schedule and run tasks when the app is in the background."
+},
+{
+"questionNumber": "5056",
+"question": "What is the purpose of the 'VirtualizedList' component in React Native?",
+"answer": "The 'VirtualizedList' component is a low-level list component that powers both FlatList and SectionList. It's used for rendering large lists efficiently by only rendering items that are currently visible on the screen."
+},
+{
+"questionNumber": "5057",
+"question": "How do you handle app crashes and error reporting in React Native?",
+"answer": "App crashes and error reporting can be handled using services like Crashlytics, Sentry, or BugSnag, which provide SDKs for React Native to catch and report errors to a centralized dashboard."
+},
+{
+"questionNumber": "5058",
+"question": "What is the purpose of the 'Share' API in React Native?",
+"answer": "The 'Share' API is used to invoke the native sharing dialog of the platform, allowing users to share content from your app to other apps installed on their device."
+},
+{
+"questionNumber": "5059",
+"question": "How do you implement in-app purchases in React Native?",
+"answer": "In-app purchases can be implemented using libraries like 'react-native-iap', which provide a unified API for handling in-app purchases on both iOS and Android platforms."
+},
+{
+"questionNumber": "5060",
+"question": "What is the purpose of the 'useCallback' hook in React Native?",
+"answer": "The 'useCallback' hook is used to memoize callback functions, preventing unnecessary re-renders of child components that depend on these functions as props."
+},
+{
+"questionNumber": "5061",
+"question": "How do you implement push-to-talk functionality in React Native?",
+"answer": "Push-to-talk functionality can be implemented using libraries like 'react-native-audio-recorder-player' for audio recording and playback, combined with real-time communication libraries like WebRTC or Socket.io."
+},
+{
+"questionNumber": "5062",
+"question": "What is the purpose of the 'useMemo' hook in React Native?",
+"answer": "The 'useMemo' hook is used to memoize expensive computations, ensuring that they are only recalculated when their dependencies change, thus optimizing performance."
+},
+{
+"questionNumber": "5063",
+"question": "How do you implement geolocation tracking in React Native?",
+"answer": "Geolocation tracking can be implemented using the 'Geolocation' API provided by React Native, or third-party libraries like 'react-native-geolocation-service' for more advanced features."
+},
+{
+"questionNumber": "5064",
+"question": "What is the purpose of the 'useRef' hook in React Native?",
+"answer": "The 'useRef' hook is used to create a mutable reference that persists across re-renders. It's commonly used to access DOM nodes or store mutable values without causing re-renders."
+},
+{
+"questionNumber": "5065",
+"question": "How do you implement video playback in React Native?",
+"answer": "Video playback can be implemented using the 'react-native-video' library, which provides a Video component with various controls and event handlers for video playback."
+},
+{
+"questionNumber": "5066",
+"question": "What is the purpose of the 'useReducer' hook in React Native?",
+"answer": "The 'useReducer' hook is used for managing more complex state logic in components. It's an alternative to useState when you have complex state logic that involves multiple sub-values or when the next state depends on the previous one."
+},
+{
+"questionNumber": "5067",
+"question": "How do you implement social media login in React Native?",
+"answer": "Social media login can be implemented using libraries like 'react-native-fbsdk' for Facebook login, 'react-native-google-signin' for Google login, and similar libraries for other platforms, along with OAuth flow handling."
+},
+{
+"questionNumber": "5068",
+"question": "What is the purpose of the 'useImperativeHandle' hook in React Native?",
+"answer": "The 'useImperativeHandle' hook is used to customize the instance value that is exposed when using ref on a component. It allows parent components to call methods on child components."
+},
+{
+"questionNumber": "5069",
+"question": "How do you implement real-time chat functionality in React Native?",
+"answer": "Real-time chat functionality can be implemented using WebSocket libraries like Socket.io or cloud services like Firebase Realtime Database, combined with UI components for displaying messages and input fields."
+},
+{
+"questionNumber": "5070",
+"question": "What is the purpose of the 'useLayoutEffect' hook in React Native?",
+"answer": "The 'useLayoutEffect' hook is similar to useEffect, but it fires synchronously after all DOM mutations. It's used for measuring layout before the browser has a chance to paint."
+},
+{
+"questionNumber": "5071",
+"question": "How do you implement app rating prompts in React Native?",
+"answer": "App rating prompts can be implemented using libraries like 'react-native-rate' or 'react-native-in-app-review', which provide APIs to show rating dialogs and direct users to the app store."
+},
+{
+"questionNumber": "5072",
+"question": "What is the purpose of the 'useDebugValue' hook in React Native?",
+"answer": "The 'useDebugValue' hook is used to display a label for custom hooks in React DevTools. It helps in debugging by providing more context about the value returned by the custom hook."
+},
+{
+"questionNumber": "5073",
+"question": "How do you implement horizontal scrolling lists in React Native?",
+"answer": "Horizontal scrolling lists can be implemented using the FlatList component with the 'horizontal' prop set to true, or by using a ScrollView with horizontal scrolling enabled."
+},
+{
+"questionNumber": "5074",
+"question": "What is the purpose of the 'Pressable' component in React Native?",
+"answer": "The 'Pressable' component is a more flexible touchable component that can detect various stages of press interactions on any of its defined children components."
+},
+{
+"questionNumber": "5075",
+"question": "How do you implement drag and drop functionality in React Native?",
+"answer": "Drag and drop functionality can be implemented using libraries like 'react-native-draggable-flatlist' or by combining the PanResponder API with Animated values to create custom drag and drop interactions."
+},
+{
+"questionNumber": "5076",
+"question": "What is the purpose of the 'SwitchComponent' in React Native?",
+"answer": "The 'SwitchComponent' is used to render a boolean input. It's a controlled component that allows users to toggle between two states, typically used for enabling or disabling settings."
+},
+{
+"questionNumber": "5077",
+"question": "How do you implement form validation in React Native?",
+"answer": "Form validation in React Native can be implemented using libraries like 'formik' or 'react-hook-form', combined with validation schemas from libraries like 'yup' or custom validation functions."
+},
+{
+"questionNumber": "5078",
+"question": "What is the purpose of the 'DrawerLayoutAndroid' component in React Native?",
+"answer": "The 'DrawerLayoutAndroid' component is used to create a drawer layout for Android devices. It renders a drawer that can be pulled in from the side of the screen, typically used for navigation menus."
+},
+{
+"questionNumber": "5079",
+"question": "How do you implement local notifications in React Native?",
+"answer": "Local notifications can be implemented using libraries like 'react-native-push-notification' or '@react-native-community/push-notification-ios', which provide APIs to schedule and manage local notifications."
+},
+{
+"questionNumber": "5080",
+"question": "What is the purpose of the 'ViewPagerAndroid' component in React Native?",
+"answer": "The 'ViewPagerAndroid' component is used to create swipeable pages on Android devices. It allows users to flip left and right through pages of data, similar to a gallery or a tabbed interface."
+},
+{
+"questionNumber": "5081",
+"question": "How do you implement custom transition animations in React Native?",
+"answer": "Custom transition animations can be implemented using the Animated API, configuring custom transition specifications in React Navigation, or using libraries like 'react-native-reanimated' for more complex animations."
+},
+{
+"questionNumber": "5082",
+"question": "What is the purpose of the 'DatePickerIOS' component in React Native?",
+"answer": "The 'DatePickerIOS' component is used to render a date/time picker on iOS devices. It provides a native interface for selecting dates and times."
+},
+{
+"questionNumber": "5083",
+"question": "How do you implement custom fonts in React Native?",
+"answer": "Custom fonts can be implemented by adding font files to the project, linking them using 'react-native link' or manually, and then referencing the font family name in your styles."
+},
+{
+"questionNumber": "5084",
+"question": "What is the purpose of the 'SegmentedControlIOS' component in React Native?",
+"answer": "The 'SegmentedControlIOS' component is used to render a UISegmentedControl on iOS devices. It's typically used for displaying a set of options for users to choose from."
+},
+{
+"questionNumber": "5085",
+"question": "How do you implement custom keyboards in React Native?",
+"answer": "Custom keyboards can be implemented by creating native modules that extend the KeyboardView on Android or the CustomKeyboard protocol on iOS, and then bridging these to React Native."
+},
+{
+"questionNumber": "5086",
+"question": "What is the purpose of the 'ProgressBarAndroid' component in React Native?",
+"answer": "The 'ProgressBarAndroid' component is used to render a ProgressBar on Android devices. It's typically used to show the progress of an operation or a loading state."
+},
+{
+"questionNumber": "5087",
+"question": "How do you implement voice commands in React Native?",
+"answer": "Voice commands can be implemented using libraries like 'react-native-voice' or '@react-native-community/voice', which provide APIs for speech recognition and text-to-speech functionality."
+},
+{
+"questionNumber": "5088",
+"question": "What is the purpose of the 'ProgressViewIOS' component in React Native?",
+"answer": "The 'ProgressViewIOS' component is used to render a UIProgressView on iOS devices. It's typically used to show the progress of an operation or a loading state."
+},
+{
+"questionNumber": "5089",
+"question": "How do you implement app shortcuts in React Native?",
+"answer": "App shortcuts can be implemented using libraries like 'react-native-quick-actions' for iOS and creating native modules for Android that interact with the ShortcutManager API."
+},
+{
+"questionNumber": "5090",
+"question": "What is the purpose of the 'InputAccessoryView' component in React Native?",
+"answer": "The 'InputAccessoryView' component is used to display custom content above the keyboard on iOS devices. It's typically used for adding custom controls or suggestions above the keyboard."
+},
+{
+"questionNumber": "5091",
+"question": "How do you implement barcode scanning in React Native?",
+"answer": "Barcode scanning can be implemented using libraries like 'react-native-camera' or 'react-native-vision-camera', which provide components and APIs for accessing the device's camera and processing barcodes."
+},
+{
+"questionNumber": "5092",
+"question": "What is the purpose of the 'MaskedViewIOS' component in React Native?",
+"answer": "The 'MaskedViewIOS' component is used to render a view with a mask on iOS devices. It allows you to clip the content of a view to a specific shape or pattern."
+},
+{
+"questionNumber": "5093",
+"question": "How do you implement tap gestures in React Native?",
+"answer": "Tap gestures can be implemented using the 'TouchableOpacity' or 'Pressable' components for simple taps, or the 'TapGestureHandler' from 'react-native-gesture-handler' for more complex tap interactions."
+},
+{
+"questionNumber": "5094",
+"question": "What is the purpose of the 'PickerIOS' component in React Native?",
+"answer": "The 'PickerIOS' component is used to render a UIPickerView on iOS devices. It provides a native interface for selecting from a list of options."
+},
+{
+"questionNumber": "5095",
+"question": "How do you implement swipe gestures in React Native?",
+"answer": "Swipe gestures can be implemented using the PanResponder API or libraries like 'react-native-gesture-handler', which provide more advanced gesture recognition capabilities."
+},
+{
+"questionNumber": "5096",
+"question": "What is the purpose of the 'SafeAreaContext' in React Native?",
+"answer": "The 'SafeAreaContext' provides a way to access safe area insets (area not covered by notches, status bars, home indicators, etc.) of the device. It's used to ensure content is displayed within the safe area of the screen."
+},
+{
+"questionNumber": "5097",
+"question": "How do you implement pinch-to-zoom gestures in React Native?",
+"answer": "Pinch-to-zoom gestures can be implemented using the PanResponder API or libraries like 'react-native-gesture-handler' in combination with the Animated API to scale and transform views based on pinch gestures."
+},
+{
+"questionNumber": "5098",
+"question": "What is the purpose of the 'AccessibilityInfo' API in React Native?",
+"answer": "The 'AccessibilityInfo' API provides information about the accessibility features of the device. It allows developers to query the current state of accessibility settings and respond to changes in these settings, enabling the creation of more accessible apps."
+},
+{
+"questionNumber": "5099",
+"question": "How do you implement custom animations in React Native?",
+"answer": "Custom animations in React Native can be implemented using the Animated API, which provides a way to create smooth, powerful, and flexible animations. For more complex animations, libraries like 'react-native-reanimated' can be used."
+}
+]
