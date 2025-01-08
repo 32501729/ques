@@ -1,0 +1,442 @@
+[
+{
+"questionNumber": "4500",
+"question": "What does MERN stand for in web development?",
+"answer": "MERN stands for MongoDB, Express.js, React, and Node.js. It's a popular stack for building full-stack JavaScript applications."
+},
+{
+"questionNumber": "4501",
+"question": "What is MongoDB?",
+"answer": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. It's known for its scalability and flexibility in handling unstructured data."
+},
+{
+"questionNumber": "4502",
+"question": "What is Express.js?",
+"answer": "Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."
+},
+{
+"questionNumber": "4503",
+"question": "What is React?",
+"answer": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update and render them when data changes."
+},
+{
+"questionNumber": "4504",
+"question": "What is Node.js?",
+"answer": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows you to run JavaScript on the server-side."
+},
+{
+"questionNumber": "4505",
+"question": "What are the advantages of using the MERN stack?",
+"answer": "The advantages include using JavaScript throughout the stack, high performance, flexibility in data modeling with MongoDB, rich ecosystem of libraries and tools, and strong community support."
+},
+{
+"questionNumber": "4506",
+"question": "What is a document in MongoDB?",
+"answer": "A document in MongoDB is a record in a MongoDB collection and the basic unit of data. It's similar to JSON objects but uses a variant called BSON (Binary JSON)."
+},
+{
+"questionNumber": "4507",
+"question": "What is a collection in MongoDB?",
+"answer": "A collection in MongoDB is a grouping of MongoDB documents. It's the equivalent of a table in relational databases."
+},
+{
+"questionNumber": "4508",
+"question": "How do you connect to a MongoDB database using Node.js?",
+"answer": "You can connect to a MongoDB database using the official MongoDB driver for Node.js. First, install the driver using npm, then use the MongoClient.connect() method to establish a connection."
+},
+{
+"questionNumber": "4509",
+"question": "What is Mongoose?",
+"answer": "Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a straightforward, schema-based solution to model your application data."
+},
+{
+"questionNumber": "4510",
+"question": "What is a schema in Mongoose?",
+"answer": "A schema in Mongoose is a structure that defines the shape of documents within a collection in MongoDB. It specifies the fields, their types, and any validation rules."
+},
+{
+"questionNumber": "4511",
+"question": "What is a model in Mongoose?",
+"answer": "A model in Mongoose is a constructor compiled from a Schema definition. It represents a collection in the database and is responsible for creating and reading documents."
+},
+{
+"questionNumber": "4512",
+"question": "How do you define a schema in Mongoose?",
+"answer": "You define a schema in Mongoose using the mongoose.Schema constructor. For example: const userSchema = new mongoose.Schema({ name: String, email: String });"
+},
+{
+"questionNumber": "4513",
+"question": "What are middleware functions in Mongoose?",
+"answer": "Middleware functions in Mongoose are functions that have access to the request and response objects. They can execute code, make changes to the request and response objects, end the request-response cycle, and call the next middleware function."
+},
+{
+"questionNumber": "4514",
+"question": "What is the purpose of the 'lean' option in Mongoose queries?",
+"answer": "The 'lean' option in Mongoose queries returns plain JavaScript objects instead of Mongoose documents. This can significantly improve query performance when you don't need Mongoose features like change tracking or saving."
+},
+{
+"questionNumber": "4515",
+"question": "What is indexing in MongoDB?",
+"answer": "Indexing in MongoDB is a data structure that improves the speed of data retrieval operations by allowing the database to quickly locate and access the data without having to scan every document in a collection."
+},
+{
+"questionNumber": "4516",
+"question": "What is sharding in MongoDB?",
+"answer": "Sharding in MongoDB is a method for distributing data across multiple machines to support deployments with very large data sets and high throughput operations."
+},
+{
+"questionNumber": "4517",
+"question": "What is the aggregation pipeline in MongoDB?",
+"answer": "The aggregation pipeline in MongoDB is a framework for data aggregation modeled on the concept of data processing pipelines. It allows you to process data from a collection through a series of stages, each performing a specific operation on the data."
+},
+{
+"questionNumber": "4518",
+"question": "What is the purpose of the $lookup operator in MongoDB?",
+"answer": "The $lookup operator in MongoDB performs a left outer join to an unsharded collection in the same database to filter in documents from the 'joined' collection for processing."
+},
+{
+"questionNumber": "4519",
+"question": "What is the difference between SQL and MongoDB?",
+"answer": "SQL is a relational database that uses structured query language and predefined schemas, while MongoDB is a NoSQL database that uses dynamic schemas for unstructured data. SQL uses tables and rows, while MongoDB uses collections and documents."
+},
+{
+"questionNumber": "4520",
+"question": "What is Express middleware?",
+"answer": "Express middleware are functions that have access to the request object (req), the response object (res), and the next middleware function in the application's request-response cycle, usually denoted by a variable named next."
+},
+{
+"questionNumber": "4521",
+"question": "How do you handle routing in Express.js?",
+"answer": "In Express.js, routing is handled using methods of the Express app object that correspond to HTTP methods. For example, app.get() handles GET requests, app.post() handles POST requests, etc."
+},
+{
+"questionNumber": "4522",
+"question": "What is the purpose of the 'next' function in Express middleware?",
+"answer": "The 'next' function in Express middleware is used to pass control to the next middleware function. If not called, the request will be left hanging."
+},
+{
+"questionNumber": "4523",
+"question": "How do you handle errors in Express.js?",
+"answer": "Errors in Express.js are typically handled using error-handling middleware. This middleware takes four arguments (err, req, res, next) and is defined last after other app.use() and routes calls."
+},
+{
+"questionNumber": "4524",
+"question": "What is the purpose of the body-parser middleware in Express.js?",
+"answer": "The body-parser middleware in Express.js is used to parse the body of incoming requests. It can parse various formats including JSON and URL-encoded data."
+},
+{
+"questionNumber": "4525",
+"question": "What is CORS and how do you handle it in Express.js?",
+"answer": "CORS (Cross-Origin Resource Sharing) is a security mechanism that allows or restricts requested resources on a web server depending on where the HTTP request was initiated. In Express.js, you can handle CORS using the 'cors' middleware."
+},
+{
+"questionNumber": "4526",
+"question": "What is the difference between app.use() and app.get() in Express.js?",
+"answer": "app.use() is used for middleware that should be applied to all routes, while app.get() is specifically for handling GET requests to a particular route."
+},
+{
+"questionNumber": "4527",
+"question": "How do you serve static files in Express.js?",
+"answer": "You can serve static files in Express.js using the express.static middleware. For example: app.use(express.static('public')) will serve static files from a directory named 'public'."
+},
+{
+"questionNumber": "4528",
+"question": "What is template rendering in Express.js?",
+"answer": "Template rendering in Express.js allows you to generate dynamic HTML pages using template engines like EJS, Pug, or Handlebars. You set the view engine and then use res.render() to render templates."
+},
+{
+"questionNumber": "4529",
+"question": "What is the purpose of the express.Router() in Express.js?",
+"answer": "express.Router() is used to create modular, mountable route handlers. It's a mini-app that can have its own middleware and routes, allowing you to organize your routes into separate files or modules."
+},
+{
+"questionNumber": "4530",
+"question": "What is React's virtual DOM?",
+"answer": "React's virtual DOM is a lightweight JavaScript representation of the actual DOM. React uses it to improve performance by minimizing direct manipulation of the DOM, which can be slow."
+},
+{
+"questionNumber": "4531",
+"question": "What are React components?",
+"answer": "React components are reusable, self-contained pieces of code that return React elements describing what should appear on the screen. They can be either function components or class components."
+},
+{
+"questionNumber": "4532",
+"question": "What is JSX in React?",
+"answer": "JSX is a syntax extension for JavaScript that looks similar to XML or HTML. It allows you to write HTML structures in the same file as your JavaScript code, which is then transformed to React.createElement() calls."
+},
+{
+"questionNumber": "4533",
+"question": "What are props in React?",
+"answer": "Props (short for properties) in React are a way of passing data from parent to child components. They are read-only and help make your components reusable."
+},
+{
+"questionNumber": "4534",
+"question": "What is state in React?",
+"answer": "State in React is an object that holds data that may change over time. When state is updated, React re-renders the component to reflect these changes."
+},
+{
+"questionNumber": "4535",
+"question": "What is the difference between state and props in React?",
+"answer": "Props are passed to a component from its parent and are read-only within the component. State is managed within the component and can be changed using setState() (in class components) or useState() (in function components)."
+},
+{
+"questionNumber": "4536",
+"question": "What are React hooks?",
+"answer": "React hooks are functions that allow you to 'hook into' React state and lifecycle features from function components. Examples include useState, useEffect, useContext, etc."
+},
+{
+"questionNumber": "4537",
+"question": "What is the useState hook in React?",
+"answer": "useState is a hook in React that allows you to add state to function components. It returns an array with two elements: the current state value and a function to update it."
+},
+{
+"questionNumber": "4538",
+"question": "What is the useEffect hook in React?",
+"answer": "useEffect is a hook in React that allows you to perform side effects in function components. It's similar to componentDidMount, componentDidUpdate, and componentWillUnmount combined in class components."
+},
+{
+"questionNumber": "4539",
+"question": "What is the purpose of the key prop in React?",
+"answer": "The key prop in React is used to give elements in a collection a stable identity. It helps React identify which items have changed, been added, or been removed, improving performance during reconciliation."
+},
+{
+"questionNumber": "4540",
+"question": "What is React Router?",
+"answer": "React Router is a standard routing library for React applications. It allows you to build a single-page web application with navigation without the page refreshing as the user navigates."
+},
+{
+"questionNumber": "4541",
+"question": "What is the Context API in React?",
+"answer": "The Context API in React provides a way to pass data through the component tree without having to pass props down manually at every level. It's designed to share data that can be considered 'global' for a tree of React components."
+},
+{
+"questionNumber": "4542",
+"question": "What is Redux?",
+"answer": "Redux is a predictable state container for JavaScript apps, often used with React. It helps you write applications that behave consistently, run in different environments, and are easy to test."
+},
+{
+"questionNumber": "4543",
+"question": "What are the main principles of Redux?",
+"answer": "The main principles of Redux are: 1) Single source of truth (the state is stored in a single object tree), 2) State is read-only (the only way to change state is to emit an action), and 3) Changes are made with pure functions (reducers)."
+},
+{
+"questionNumber": "4544",
+"question": "What is a reducer in Redux?",
+"answer": "A reducer in Redux is a pure function that takes the current state and an action as arguments, and returns a new state. It specifies how the application's state changes in response to actions sent to the store."
+},
+{
+"questionNumber": "4545",
+"question": "What is an action in Redux?",
+"answer": "An action in Redux is a plain JavaScript object that describes what happened in the app. It must have a 'type' property, and it can have additional properties with data about the action."
+},
+{
+"questionNumber": "4546",
+"question": "What is the Redux store?",
+"answer": "The Redux store is the object that brings together the state, actions, and reducers in a Redux application. It holds the application state, allows access to the state via getState(), allows state to be updated via dispatch(action), and allows you to register listeners via subscribe()."
+},
+{
+"questionNumber": "4547",
+"question": "What is middleware in Redux?",
+"answer": "Middleware in Redux provides a third-party extension point between dispatching an action and the moment it reaches the reducer. It's commonly used for logging, crash reporting, performing asynchronous tasks, etc."
+},
+{
+"questionNumber": "4548",
+"question": "What is Redux Thunk?",
+"answer": "Redux Thunk is middleware for Redux that allows you to write action creators that return a function instead of an action. This is particularly useful for handling asynchronous logic or conditional dispatching of actions."
+},
+{
+"questionNumber": "4549",
+"question": "What is the difference between React's useState and Redux?",
+"answer": "useState is for local component state, while Redux is for global application state. Redux is typically used for more complex state management scenarios, especially when state needs to be shared across many components."
+},
+{
+"questionNumber": "4550",
+"question": "What is server-side rendering in React?",
+"answer": "Server-side rendering (SSR) is the process of rendering React components on the server instead of in the browser. This can improve initial load time and is beneficial for SEO as search engines can crawl the fully rendered page."
+},
+{
+"questionNumber": "4551",
+"question": "What is Next.js?",
+"answer": "Next.js is a React framework that provides features like server-side rendering, static site generation, automatic code splitting, and more out of the box. It's designed to make building React applications easier and more efficient."
+},
+{
+"questionNumber": "4552",
+"question": "What is the difference between controlled and uncontrolled components in React?",
+"answer": "Controlled components in React are those where form data is handled by the component's state. Uncontrolled components are those where form data is handled by the DOM itself. Controlled components offer more control and are generally preferred for form handling in React."
+},
+{
+"questionNumber": "4553",
+"question": "What are React fragments?",
+"answer": "React fragments are a way to group multiple elements without adding an extra node to the DOM. They're useful when you need to return multiple elements from a component's render method without wrapping them in a parent div."
+},
+{
+"questionNumber": "4554",
+"question": "What is the purpose of the useCallback hook in React?",
+"answer": "The useCallback hook in React is used to memoize functions. It returns a memoized version of the callback that only changes if one of the dependencies has changed. This is useful for optimizing performance in components that rely on referential equality of functions."
+},
+{
+"questionNumber": "4555",
+"question": "What is the purpose of the useMemo hook in React?",
+"answer": "The useMemo hook in React is used to memoize expensive computations. It only recomputes the memoized value when one of the dependencies has changed. This optimization helps to avoid expensive calculations on every render."
+},
+{
+"questionNumber": "4556",
+"question": "What is the purpose of the useRef hook in React?",
+"answer": "The useRef hook in React is used to create a mutable reference that persists across re-renders. It's commonly used to access DOM nodes or to store mutable values that don't require component re-renders when they change."
+},
+{
+"questionNumber": "4557",
+"question": "What is prop drilling in React and how can it be avoided?",
+"answer": "Prop drilling occurs when props need to be passed through multiple levels of components that don't need the data themselves. It can be avoided using techniques like context API, component composition, or state management libraries like Redux."
+},
+{
+"questionNumber": "4558",
+"question": "What is the purpose of the useContext hook in React?",
+"answer": "The useContext hook in React is used to consume values from a React context. It allows components to subscribe to a context without introducing nesting, making it easier to share values that are considered 'global' for a tree of React components."
+},
+{
+"questionNumber": "4559",
+"question": "What is the difference between React.memo() and useMemo()?",
+"answer": "React.memo() is a higher-order component that memoizes an entire component, preventing re-renders if props haven't changed. useMemo() is a hook that memoizes a specific value within a component, recalculating it only when dependencies change."
+},
+{
+"questionNumber": "4560",
+"question": "What are React portals?",
+"answer": "React portals provide a way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. This is useful for creating modals, tooltips, or any floating elements that need to break out of their container."
+},
+{
+"questionNumber": "4561",
+"question": "What is the purpose of the dangerouslySetInnerHTML attribute in React?",
+"answer": "dangerouslySetInnerHTML is React's replacement for using innerHTML in the browser DOM. It's intentionally named to remind developers that it can be dangerous to set HTML directly due to the risk of cross-site scripting (XSS) attacks."
+},
+{
+"questionNumber": "4562",
+"question": "What is the difference between Element and Component in React?",
+"answer": "An Element is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components. Components, on the other hand, can be either classes or functions that may accept inputs (props) and return React elements describing what should appear on the screen."
+},
+{
+"questionNumber": "4563",
+"question": "What is the purpose of the key prop when rendering lists in React?",
+"answer": "The key prop is used to give elements in a collection a stable identity. It helps React identify which items have changed, been added, or been removed, and plays a crucial role in the reconciliation process for efficient updates."
+},
+{
+"questionNumber": "4564",
+"question": "What are Higher-Order Components (HOCs) in React?",
+"answer": "Higher-Order Components are functions that take a component and return a new component with some additional functionality. They're a way to reuse component logic across multiple components."
+},
+{
+"questionNumber": "4565",
+"question": "What is the purpose of the useLayoutEffect hook in React?",
+"answer": "useLayoutEffect is similar to useEffect, but it fires synchronously after all DOM mutations. It's useful for reading layout from the DOM and synchronously re-rendering, but should be used sparingly as it can impact performance."
+},
+{
+"questionNumber": "4566",
+"question": "What is the difference between Shadow DOM and Virtual DOM?",
+"answer": "Shadow DOM is a browser technology for scoping variables and CSS in web components. Virtual DOM is a concept used by React to optimize rendering performance by minimizing direct manipulation of the actual DOM."
+},
+{
+"questionNumber": "4567",
+"question": "What is the purpose of the React.StrictMode component?",
+"answer": "React.StrictMode is a wrapper component that checks for potential problems in an application during development. It activates additional checks and warnings for its descendants, helping developers identify issues early."
+},
+{
+"questionNumber": "4568",
+"question": "What is the purpose of the useReducer hook in React?",
+"answer": "useReducer is a hook that is used for managing more complex state logic in React applications. It's an alternative to useState when you have complex state logic that involves multiple sub-values or when the next state depends on the previous one."
+},
+{
+"questionNumber": "4569",
+"question": "What is the difference between state and props in React?",
+"answer": "Props (short for properties) are passed to a component from its parent and are read-only. State is managed within the component and can be changed using setState() in class components or the appropriate setter function in function components using hooks."
+},
+{
+"questionNumber": "4570",
+"question": "What is the purpose of the componentDidMount lifecycle method in React class components?",
+"answer": "componentDidMount is called after a component is mounted to the DOM. It's commonly used for tasks that require the DOM nodes to be rendered, such as initializing third-party libraries, making network requests, or setting up subscriptions."
+},
+{
+"questionNumber": "4571",
+"question": "What is the purpose of the shouldComponentUpdate lifecycle method in React class components?",
+"answer": "shouldComponentUpdate is used to let React know if a component's output is not affected by the current change in state or props. It's used for performance optimization by preventing unnecessary re-renders."
+},
+{
+"questionNumber": "4572",
+"question": "What is the purpose of the componentWillUnmount lifecycle method in React class components?",
+"answer": "componentWillUnmount is called immediately before a component is unmounted and destroyed. It's commonly used for cleanup tasks such as cancelling network requests, removing event listeners, or invalidating timers."
+},
+{
+"questionNumber": "4573",
+"question": "What is the purpose of the getDerivedStateFromProps lifecycle method in React class components?",
+"answer": "getDerivedStateFromProps is used to update the state based on changes in props over time. It's called every time a component is re-rendered, regardless of the cause."
+},
+{
+"questionNumber": "4574",
+"question": "What is the purpose of the getSnapshotBeforeUpdate lifecycle method in React class components?",
+"answer": "getSnapshotBeforeUpdate is called right before the most recently rendered output is committed to the DOM. It enables your component to capture some information from the DOM before it is potentially changed."
+},
+{
+"questionNumber": "4575",
+"question": "What is the difference between ReactDOM.render() and ReactDOM.createPortal()?",
+"answer": "ReactDOM.render() is used to render a React element into the DOM in the supplied container. ReactDOM.createPortal() allows you to render children into a DOM node that exists outside the DOM hierarchy of the parent component."
+},
+{
+"questionNumber": "4576",
+"question": "What is the purpose of the React.lazy() function?",
+"answer": "React.lazy() is used for code-splitting in React applications. It allows you to dynamically import components, reducing the initial bundle size and improving performance by loading components only when they are needed."
+},
+{
+"questionNumber": "4577",
+"question": "What is the purpose of the Suspense component in React?",
+"answer": "The Suspense component is used to specify a loading state for components that are not yet ready to render. It's commonly used with React.lazy() for handling asynchronous operations like code-splitting or data fetching."
+},
+{
+"questionNumber": "4578",
+"question": "What is the difference between controlled and uncontrolled components in React forms?",
+"answer": "In controlled components, form data is handled by React component state. In uncontrolled components, form data is handled by the DOM itself. Controlled components provide more control and are generally preferred for form handling in React."
+},
+{
+"questionNumber": "4579",
+"question": "What is the purpose of the React.cloneElement() method?",
+"answer": "React.cloneElement() is used to clone and return a new React element using an existing element as the starting point. It's useful when you need to modify the props of an element that you don't own directly."
+},
+{
+"questionNumber": "4580",
+"question": "What is the purpose of the React.Children utility?",
+"answer": "React.Children provides utilities for dealing with the this.props.children opaque data structure. It includes methods like React.Children.map() and React.Children.count() which help in manipulating and transforming child components."
+},
+{
+"questionNumber": "4581",
+"question": "What is the purpose of the React.PureComponent?",
+"answer": "React.PureComponent is similar to React.Component but implements shouldComponentUpdate() with a shallow prop and state comparison. This can provide a performance boost in some cases by reducing the number of unnecessary renders."
+},
+{
+"questionNumber": "4582",
+"question": "What is the purpose of the React.memo() higher-order component?",
+"answer": "React.memo() is a higher-order component that can be used to wrap function components to prevent unnecessary re-renders. It performs a shallow comparison of props and only re-renders if the props have changed."
+},
+{
+"questionNumber": "4583",
+"question": "What is the purpose of the useImperativeHandle hook in React?",
+"answer": "useImperativeHandle customizes the instance value that is exposed to parent components when using ref. It's used in conjunction with forwardRef and allows a child component to control what is exposed through its ref."
+},
+{
+"questionNumber": "4584",
+"question": "What is the purpose of the useDebugValue hook in React?",
+"answer": "useDebugValue can be used to display a label for custom hooks in React DevTools. It's helpful for debugging and understanding the behavior of custom hooks in your application."
+},
+{
+"questionNumber": "4585",
+"question": "What is the purpose of the key attribute in React lists?",
+"answer": "The key attribute is used to give elements in a collection a stable identity. It helps React identify which items have changed, been added, or been removed, and plays a crucial role in the reconciliation process for efficient updates."
+},
+{
+"questionNumber": "4586",
+"question": "What is the difference between state and props in React?",
+"answer": "Props are passed to a component from its parent and are read-only within the component. State is managed within the component and can be changed using setState() (in class components) or useState() (in function components)."
+},
+{
+"questionNumber": "4587",
+"question": "What is JSX in React?",
+"answer": "JSX is a syntax extension for JavaScript that looks similar to XML or HTML. It allows you to write HTML structures in the same file as your JavaScript code, which is then transformed to React.createElement() calls."
+}
+]
