@@ -8,3 +8,4 @@ Records of range:
 - Android : 2500 - 3000
 - Jetpack Compose : 3000 - 3500
 - Machine Learning : 3500 - 4000
+- Web : 4000 - 4500
