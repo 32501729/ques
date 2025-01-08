@@ -1,0 +1,467 @@
+[
+{
+"questionNumber": "4000",
+"question": "What is HTML?",
+"answer": "HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages and web applications."
+},
+{
+"questionNumber": "4001",
+"question": "What is CSS?",
+"answer": "CSS stands for Cascading Style Sheets. It is a style sheet language used for describing the presentation of a document written in HTML or XML."
+},
+{
+"questionNumber": "4002",
+"question": "What is JavaScript?",
+"answer": "JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm."
+},
+{
+"questionNumber": "4003",
+"question": "What is the difference between HTML and XHTML?",
+"answer": "XHTML is a stricter, more XML-based version of HTML. XHTML requires properly nested tags, quoted attributes, and self-closing empty elements, while HTML is more forgiving."
+},
+{
+"questionNumber": "4004",
+"question": "What are semantic HTML tags?",
+"answer": "Semantic HTML tags are tags that convey meaning about the structure of the document, rather than just presentation. Examples include `<header>`, `<nav>`, `<article>`, and `<footer>`."
+},
+{
+"questionNumber": "4005",
+"question": "What is the purpose of the `<!DOCTYPE html>` declaration?",
+"answer": "The `<!DOCTYPE html>` declaration is used to inform the browser about the version of HTML being used in the document. It ensures that the browser renders the web page in standards mode."
+},
+{
+"questionNumber": "4006",
+"question": "What is the box model in CSS?",
+"answer": "The CSS box model is a box that wraps around every HTML element. It consists of margins, borders, padding, and the actual content."
+},
+{
+"questionNumber": "4007",
+"question": "What is the difference between inline and block elements?",
+"answer": "Inline elements do not start on a new line and only take up as much width as necessary. Block elements always start on a new line and take up the full width available."
+},
+{
+"questionNumber": "4008",
+"question": "What is the purpose of the 'alt' attribute in images?",
+"answer": "The 'alt' attribute provides alternative text for an image if it cannot be displayed. It's also used by screen readers to describe the image to visually impaired users."
+},
+{
+"questionNumber": "4009",
+"question": "What is the difference between '==' and '===' in JavaScript?",
+"answer": "'==' is the equality operator that compares values after performing type coercion if necessary. '===' is the strict equality operator that compares both value and type without coercion."
+},
+{
+"questionNumber": "4010",
+"question": "What is a closure in JavaScript?",
+"answer": "A closure is a function that has access to variables in its outer (enclosing) lexical scope, even after the outer function has returned."
+},
+{
+"questionNumber": "4011",
+"question": "What is the difference between 'let', 'const', and 'var' in JavaScript?",
+"answer": "'var' is function-scoped and can be redeclared. 'let' is block-scoped and can be reassigned but not redeclared. 'const' is block-scoped and cannot be reassigned or redeclared."
+},
+{
+"questionNumber": "4012",
+"question": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+"answer": "'async' and 'await' are used to work with asynchronous code. 'async' defines an asynchronous function, and 'await' is used inside async functions to wait for promises to resolve."
+},
+{
+"questionNumber": "4013",
+"question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+"answer": "'undefined' means a variable has been declared but has not yet been assigned a value. 'null' is an assignment value that represents no value or no object."
+},
+{
+"questionNumber": "4014",
+"question": "What is the purpose of the 'use strict' directive in JavaScript?",
+"answer": "'use strict' is a directive that enables strict mode in JavaScript. It helps catch common coding errors and prevents the use of certain error-prone features."
+},
+{
+"questionNumber": "4015",
+"question": "What is the difference between 'display: none' and 'visibility: hidden' in CSS?",
+"answer": "'display: none' removes the element from the document flow and hides it. 'visibility: hidden' hides the element but keeps its space in the layout."
+},
+{
+"questionNumber": "4016",
+"question": "What is the purpose of media queries in CSS?",
+"answer": "Media queries allow you to apply CSS styles based on the characteristics of the device, such as screen size, orientation, or resolution. They are crucial for creating responsive designs."
+},
+{
+"questionNumber": "4017",
+"question": "What is the difference between 'position: relative' and 'position: absolute' in CSS?",
+"answer": "'position: relative' positions an element relative to its normal position. 'position: absolute' positions an element relative to its nearest positioned ancestor or the initial containing block."
+},
+{
+"questionNumber": "4018",
+"question": "What is the purpose of the 'z-index' property in CSS?",
+"answer": "The 'z-index' property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order."
+},
+{
+"questionNumber": "4019",
+"question": "What is the difference between 'sessionStorage' and 'localStorage' in JavaScript?",
+"answer": "Both are web storage objects, but 'sessionStorage' data is cleared when the browser session ends, while 'localStorage' data persists even when the browser is closed and reopened."
+},
+{
+"questionNumber": "4020",
+"question": "What is the purpose of the 'data-*' attributes in HTML?",
+"answer": "The 'data-*' attributes allow you to store custom data private to the page or application. They provide a way to embed custom data attributes on all HTML elements."
+},
+{
+"questionNumber": "4021",
+"question": "What is the difference between 'GET' and 'POST' HTTP methods?",
+"answer": "'GET' requests data from a specified resource and can be cached. 'POST' submits data to be processed to a specified resource and is never cached."
+},
+{
+"questionNumber": "4022",
+"question": "What is Cross-Origin Resource Sharing (CORS)?",
+"answer": "CORS is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served."
+},
+{
+"questionNumber": "4023",
+"question": "What is the purpose of the 'defer' attribute in script tags?",
+"answer": "The 'defer' attribute specifies that the script should be executed after the document has been parsed, but before the DOMContentLoaded event."
+},
+{
+"questionNumber": "4024",
+"question": "What is the difference between 'em' and 'rem' units in CSS?",
+"answer": "'em' is relative to the font-size of its direct or nearest parent, while 'rem' is only relative to the html (root) font-size."
+},
+{
+"questionNumber": "4025",
+"question": "What is the purpose of the 'this' keyword in JavaScript?",
+"answer": "The 'this' keyword refers to the object it belongs to. It has different values depending on where it is used: in a method, alone, in a function, or in an event."
+},
+{
+"questionNumber": "4026",
+"question": "What is the difference between 'call', 'apply', and 'bind' methods in JavaScript?",
+"answer": "'call' and 'apply' invoke a function immediately, with 'call' accepting a list of arguments and 'apply' accepting an array. 'bind' creates a new function with a fixed 'this' value."
+},
+{
+"questionNumber": "4027",
+"question": "What is the purpose of the 'meta viewport' tag?",
+"answer": "The 'meta viewport' tag gives the browser instructions on how to control the page's dimensions and scaling, which is crucial for responsive web design."
+},
+{
+"questionNumber": "4028",
+"question": "What is the difference between 'flex' and 'grid' layouts in CSS?",
+"answer": "Flexbox is designed for one-dimensional layouts (row or column), while Grid is designed for two-dimensional layouts (rows and columns together)."
+},
+{
+"questionNumber": "4029",
+"question": "What is the purpose of the 'srcset' attribute in img tags?",
+"answer": "The 'srcset' attribute allows you to specify multiple image sources for different screen sizes or resolutions, enabling responsive images."
+},
+{
+"questionNumber": "4030",
+"question": "What is the difference between 'map' and 'forEach' methods in JavaScript?",
+"answer": "'map' creates a new array with the results of calling a provided function on every element. 'forEach' executes a provided function once for each array element but doesn't return anything."
+},
+{
+"questionNumber": "4031",
+"question": "What is the purpose of the 'aria-*' attributes in HTML?",
+"answer": "ARIA attributes provide additional semantics to describe the role, state, and properties of elements, enhancing accessibility for users of assistive technologies."
+},
+{
+"questionNumber": "4032",
+"question": "What is the difference between 'margin' and 'padding' in CSS?",
+"answer": "Margin is the space outside an element, creating space between elements. Padding is the space inside an element, creating space between the element's content and its border."
+},
+{
+"questionNumber": "4033",
+"question": "What is a Promise in JavaScript?",
+"answer": "A Promise is an object representing the eventual completion or failure of an asynchronous operation. It allows you to write asynchronous code in a more manageable way."
+},
+{
+"questionNumber": "4034",
+"question": "What is the purpose of the 'canvas' element in HTML5?",
+"answer": "The 'canvas' element is used to draw graphics, animations, or other visual images on the fly, via scripting (usually JavaScript)."
+},
+{
+"questionNumber": "4035",
+"question": "What is the difference between 'localStorage' and cookies?",
+"answer": "localStorage has a larger storage capacity (5MB vs 4KB for cookies) and doesn't send data to the server with every HTTP request, unlike cookies."
+},
+{
+"questionNumber": "4036",
+"question": "What is the purpose of the 'transform' property in CSS?",
+"answer": "The 'transform' property allows you to rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model."
+},
+{
+"questionNumber": "4037",
+"question": "What is event bubbling in JavaScript?",
+"answer": "Event bubbling is a method of event propagation in the HTML DOM API when an event is in an element inside another element, and both elements have registered a handle for that event."
+},
+{
+"questionNumber": "4038",
+"question": "What is the purpose of the 'placeholder' attribute in HTML form elements?",
+"answer": "The 'placeholder' attribute specifies a hint that describes the expected value of an input field, which disappears when the user starts typing."
+},
+{
+"questionNumber": "4039",
+"question": "What is the difference between 'slice' and 'splice' methods in JavaScript?",
+"answer": "'slice' returns a shallow copy of a portion of an array without modifying the original array. 'splice' changes the contents of an array by removing or replacing existing elements and/or adding new elements."
+},
+{
+"questionNumber": "4040",
+"question": "What is the purpose of the 'transition' property in CSS?",
+"answer": "The 'transition' property allows you to define the transition between two states of an element. It can specify which properties to animate, duration, timing function, and delay."
+},
+{
+"questionNumber": "4041",
+"question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+"answer": "'undefined' means a variable has been declared but has not yet been assigned a value. 'null' is an assignment value that represents no value or no object."
+},
+{
+"questionNumber": "4042",
+"question": "What is the purpose of the 'async' attribute in script tags?",
+"answer": "The 'async' attribute specifies that the script should be executed asynchronously as soon as it is available, without blocking the parsing of the page."
+},
+{
+"questionNumber": "4043",
+"question": "What is the difference between 'px', '%', and 'vw/vh' units in CSS?",
+"answer": "'px' is a fixed unit, '%' is relative to the parent element, and 'vw/vh' are relative to the viewport width/height respectively."
+},
+{
+"questionNumber": "4044",
+"question": "What is a callback function in JavaScript?",
+"answer": "A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action."
+},
+{
+"questionNumber": "4045",
+"question": "What is the purpose of the 'required' attribute in HTML form elements?",
+"answer": "The 'required' attribute specifies that an input field must be filled out before submitting the form. It provides basic form validation."
+},
+{
+"questionNumber": "4046",
+"question": "What is the difference between 'display: inline-block' and 'display: inline'?",
+"answer": "'inline-block' allows to set a width and height on the element and respects top/bottom margins/paddings, while 'inline' does not."
+},
+{
+"questionNumber": "4047",
+"question": "What is hoisting in JavaScript?",
+"answer": "Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope before code execution."
+},
+{
+"questionNumber": "4048",
+"question": "What is the purpose of the 'role' attribute in HTML?",
+"answer": "The 'role' attribute is used to describe the role of an element in programs that can make use of it, such as screen readers. It's part of the WAI-ARIA specification."
+},
+{
+"questionNumber": "4049",
+"question": "What is the difference between 'querySelector' and 'getElementById'?",
+"answer": "'querySelector' returns the first element that matches a CSS selector, while 'getElementById' returns the element with the specified ID. 'getElementById' is generally faster."
+},
+{
+"questionNumber": "4050",
+"question": "What is the purpose of the 'box-sizing' property in CSS?",
+"answer": "The 'box-sizing' property defines how the total width and height of an element is calculated. 'content-box' is the default, while 'border-box' includes padding and border in the element's total width and height."
+},
+{
+"questionNumber": "4051",
+"question": "What is the difference between 'let' and 'var' in JavaScript?",
+"answer": "'let' is block-scoped and can't be redeclared in the same scope, while 'var' is function-scoped and can be redeclared."
+},
+{
+"questionNumber": "4052",
+"question": "What is the purpose of the 'preventDefault()' method in JavaScript events?",
+"answer": "The 'preventDefault()' method cancels the event if it is cancelable, meaning the default action that belongs to the event will not occur."
+},
+{
+"questionNumber": "4053",
+"question": "What is the difference between 'visibility: hidden' and 'opacity: 0' in CSS?",
+"answer": "'visibility: hidden' hides the element but maintains its space in the layout. 'opacity: 0' makes the element completely transparent but still occupies space and can receive events."
+},
+{
+"questionNumber": "4054",
+"question": "What is a pure function in JavaScript?",
+"answer": "A pure function is a function that always returns the same result if the same arguments are passed. It does not depend on any state or data change during a program's execution."
+},
+{
+"questionNumber": "4055",
+"question": "What is the purpose of the 'srcset' attribute in img tags?",
+"answer": "The 'srcset' attribute specifies the URL of the image to use in different situations, allowing you to provide higher-resolution images for devices with high-resolution displays."
+},
+{
+"questionNumber": "4056",
+"question": "What is the difference between '++i' and 'i++' in JavaScript?",
+"answer": "'++i' is a pre-increment operator that increments the value before it is used. 'i++' is a post-increment operator that increments the value after it is used."
+},
+{
+"questionNumber": "4057",
+"question": "What is the purpose of the 'meta charset' tag?",
+"answer": "The 'meta charset' tag specifies the character encoding for the HTML document. It's typically set to UTF-8, which includes most characters from all known human languages."
+},
+{
+"questionNumber": "4058",
+"question": "What is the difference between 'em' and 'strong' tags in HTML?",
+"answer": "While both are used for emphasis, 'em' is used for stress emphasis (usually rendered as italic), while 'strong' is used for strong importance (usually rendered as bold)."
+},
+{
+"questionNumber": "4059",
+"question": "What is the purpose of the 'Object.freeze()' method in JavaScript?",
+"answer": "'Object.freeze()' freezes an object, preventing new properties from being added to it and existing properties from being modified or deleted."
+},
+{
+"questionNumber": "4060",
+"question": "What is the difference between 'nth-child' and 'nth-of-type' selectors in CSS?",
+"answer": "'nth-child' selects elements based on their position among all siblings, while 'nth-of-type' selects elements based on their position among siblings of the same type."
+},
+{
+"questionNumber": "4061",
+"question": "What is the purpose of the 'defer' attribute in script tags?",
+"answer": "The 'defer' attribute specifies that the script should be executed after the document has finished parsing, but before the DOMContentLoaded event."
+},
+{
+"questionNumber": "4062",
+"question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+"answer": "'undefined' means a variable has been declared but has not yet been assigned a value. 'null' is an assignment value that represents no value or no object."
+},
+{
+"questionNumber": "4063",
+"question": "What is the purpose of the 'box-shadow' property in CSS?",
+"answer": "The 'box-shadow' property adds shadow effects around an element's frame. You can set multiple effects separated by commas."
+},
+{
+"questionNumber": "4064",
+"question": "What is event delegation in JavaScript?",
+"answer": "Event delegation is a technique of adding event listeners to a parent element instead of adding them to descendant elements. It utilizes the bubbling of events."
+},
+{
+"questionNumber": "4065",
+"question": "What is the purpose of the 'autocomplete' attribute in HTML form elements?",
+"answer": "The 'autocomplete' attribute specifies whether a form or input field should have autocomplete on or off. When on, the browser can automatically complete values based on earlier typed values."
+},
+{
+"questionNumber": "4066",
+"question": "What is the difference between 'display: none' and 'visibility: hidden' in CSS?",
+"answer": "'display: none' removes the element from the document flow and hides it. 'visibility: hidden' hides the element but keeps its space in the layout."
+},
+{
+"questionNumber": "4067",
+"question": "What is a closure in JavaScript?",
+"answer": "A closure is a function that has access to variables in its outer (enclosing) lexical scope, even after the outer function has returned."
+},
+{
+"questionNumber": "4068",
+"question": "What is the purpose of the 'picture' element in HTML5?",
+"answer": "The 'picture' element contains multiple 'source' elements and one 'img' element to offer alternative versions of an image for different display/device scenarios."
+},
+{
+"questionNumber": "4069",
+"question": "What is the difference between '===' and '==' operators in JavaScript?",
+"answer": "'===' is the strict equality operator that checks both value and type without type coercion. '==' is the loose equality operator that performs type coercion before comparison."
+},
+{
+"questionNumber": "4070",
+"question": "What is the purpose of the 'flex-grow' property in CSS Flexbox?",
+"answer": "The 'flex-grow' property defines the ability for a flex item to grow if necessary. It specifies how much of the remaining space in the flex container should be assigned to the item."
+},
+{
+"questionNumber": "4071",
+"question": "What is the difference between 'let' and 'const' in JavaScript?",
+"answer": "'let' allows you to declare variables that are limited to the scope of a block statement, while 'const' is used to declare constants that cannot be reassigned after their initial assignment."
+},
+{
+"questionNumber": "4072",
+"question": "What is the purpose of the 'figure' and 'figcaption' elements in HTML5?",
+"answer": "The 'figure' element represents self-contained content, like illustrations, diagrams, photos, code listings, etc. The 'figcaption' element is used to define a caption for the 'figure' element."
+},
+{
+"questionNumber": "4073",
+"question": "What is the difference between 'margin' and 'padding' in CSS?",
+"answer": "Margin is the space outside an element, creating space between elements. Padding is the space inside an element, creating space between the element's content and its border."
+},
+{
+"questionNumber": "4074",
+"question": "What is a Promise in JavaScript?",
+"answer": "A Promise is an object representing the eventual completion or failure of an asynchronous operation. It allows you to write asynchronous code in a more manageable way."
+},
+{
+"questionNumber": "4075",
+"question": "What is the purpose of the 'transform' property in CSS?",
+"answer": "The 'transform' property allows you to rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model."
+},
+{
+"questionNumber": "4076",
+"question": "What is the difference between 'map' and 'forEach' methods in JavaScript?",
+"answer": "'map' creates a new array with the results of calling a provided function on every element. 'forEach' executes a provided function once for each array element but doesn't return anything."
+},
+{
+"questionNumber": "4077",
+"question": "What is the purpose of the 'datalist' element in HTML5?",
+"answer": "The 'datalist' element specifies a list of pre-defined options for an 'input' element, providing an autocomplete feature for the input field."
+},
+{
+"questionNumber": "4078",
+"question": "What is the difference between 'position: relative' and 'position: absolute' in CSS?",
+"answer": "'position: relative' positions an element relative to its normal position. 'position: absolute' positions an element relative to its nearest positioned ancestor or the initial containing block."
+},
+{
+"questionNumber": "4079",
+"question": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+"answer": "'async' and 'await' are used to work with asynchronous code. 'async' defines an asynchronous function, and 'await' is used inside async functions to wait for promises to resolve."
+},
+{
+"questionNumber": "4080",
+"question": "What is the difference between 'display: inline' and 'display: inline-block' in CSS?",
+"answer": "'display: inline' doesn't allow setting width and height, and doesn't force a new line. 'display: inline-block' allows setting width and height, but doesn't force a new line."
+},
+{
+"questionNumber": "4081",
+"question": "What is the purpose of the 'localStorage' object in JavaScript?",
+"answer": "'localStorage' allows you to save key/value pairs in a web browser. The data survives browser restarts and has no expiration time."
+},
+{
+"questionNumber": "4082",
+"question": "What is the difference between 'display: flex' and 'display: grid' in CSS?",
+"answer": "'display: flex' is designed for one-dimensional layouts (either rows or columns), while 'display: grid' is designed for two-dimensional layouts (rows and columns simultaneously)."
+},
+{
+"questionNumber": "4083",
+"question": "What is the purpose of the 'bind' method in JavaScript?",
+"answer": "The 'bind' method creates a new function that, when called, has its 'this' keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called."
+},
+{
+"questionNumber": "4084",
+"question": "What is the difference between 'em' and 'rem' units in CSS?",
+"answer": "'em' is relative to the font-size of its direct or nearest parent, while 'rem' is only relative to the html (root) font-size."
+},
+{
+"questionNumber": "4085",
+"question": "What is the purpose of the 'Object.create()' method in JavaScript?",
+"answer": "'Object.create()' creates a new object, using an existing object as the prototype of the newly created object. It allows you to implement inheritance in JavaScript."
+},
+{
+"questionNumber": "4086",
+"question": "What is the difference between 'visibility: hidden' and 'display: none' in CSS?",
+"answer": "'visibility: hidden' hides the element but maintains its space in the layout. 'display: none' removes the element from the document flow and hides it completely."
+},
+{
+"questionNumber": "4087",
+"question": "What is the purpose of the 'data-*' attributes in HTML?",
+"answer": "The 'data-*' attributes allow you to store custom data private to the page or application. They provide a way to embed custom data attributes on all HTML elements."
+},
+{
+"questionNumber": "4088",
+"question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+"answer": "'undefined' means a variable has been declared but has not yet been assigned a value. 'null' is an assignment value that represents no value or no object."
+},
+{
+"questionNumber": "4089",
+"question": "What is the purpose of the 'transition' property in CSS?",
+"answer": "The 'transition' property allows you to define the transition between two states of an element. It can specify which properties to animate, duration, timing function, and delay."
+},
+{
+"questionNumber": "4090",
+"question": "What is the difference between 'slice' and 'splice' methods in JavaScript arrays?",
+"answer": "'slice' returns a shallow copy of a portion of an array without modifying the original array. 'splice' changes the contents of an array by removing or replacing existing elements and/or adding new elements."
+},
+{
+"questionNumber": "4091",
+"question": "What is the purpose of the 'meta viewport' tag in HTML?",
+"answer": "The 'meta viewport' tag gives the browser instructions on how to control the page's dimensions and scaling, which is crucial for responsive web design."
+},
+{
+"questionNumber": "4092",
+"question": "What is the difference between 'sessionStorage' and 'localStorage' in JavaScript?",
+"answer": "Both are web storage objects, but 'sessionStorage' data is cleared when the browser session ends, while 'localStorage' data persists"
+}
+]
